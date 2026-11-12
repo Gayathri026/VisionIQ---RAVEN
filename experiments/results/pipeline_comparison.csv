@@ -1,0 +1,4 @@
+Pipeline Configuration,Routing F1,Precision,Recall,Median Latency (ms),p95 Latency (ms),Latency Reduction (%),Mean Agents Invoked,Evidence Support,Task Correctness
+fixed,0.2875,0.1719,1.0,1898.49,4244.07,0.0,8.0,0.7222,0.625
+rule_based,0.5433,0.5069,0.7153,1987.23,2509.94,-4.67,2.12,0.7222,0.625
+adaptive,0.5806,0.5764,0.7222,2100.56,2494.91,-10.64,3.17,0.7222,0.625

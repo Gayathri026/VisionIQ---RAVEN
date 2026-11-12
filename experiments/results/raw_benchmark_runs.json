@@ -1,0 +1,4908 @@
+{
+  "fixed": [
+    {
+      "item_id": "TC-PPE-01",
+      "session_id": "session_ppe_site_01",
+      "query": "Check whether personnel are wearing hard hats and safety vests.",
+      "pipeline_type": "fixed",
+      "required_agents": [
+        "ppe"
+      ],
+      "selected_agents": [
+        "object",
+        "ppe",
+        "defect",
+        "ocr",
+        "scene",
+        "rag",
+        "rca",
+        "recommendation"
+      ],
+      "executed_agents": [
+        "object",
+        "ppe",
+        "recommendation"
+      ],
+      "num_agents": 8,
+      "precision": 0.125,
+      "recall": 1.0,
+      "f1": 0.2222,
+      "latency_ms": 1888.25,
+      "evidence_support": 1.0,
+      "answer_correctness": 1.0,
+      "success": true,
+      "error_msg": null,
+      "findings_count": 33
+    },
+    {
+      "item_id": "TC-PPE-02",
+      "session_id": "session_ppe_site_01",
+      "query": "Detect any OSHA head protection violations in this work area.",
+      "pipeline_type": "fixed",
+      "required_agents": [
+        "ppe"
+      ],
+      "selected_agents": [
+        "object",
+        "ppe",
+        "defect",
+        "ocr",
+        "scene",
+        "rag",
+        "rca",
+        "recommendation"
+      ],
+      "executed_agents": [
+        "object",
+        "ppe",
+        "recommendation"
+      ],
+      "num_agents": 8,
+      "precision": 0.125,
+      "recall": 1.0,
+      "f1": 0.2222,
+      "latency_ms": 2028.2,
+      "evidence_support": 1.0,
+      "answer_correctness": 1.0,
+      "success": true,
+      "error_msg": null,
+      "findings_count": 33
+    },
+    {
+      "item_id": "TC-PPE-03",
+      "session_id": "session_ppe_site_01",
+      "query": "Verify high-visibility vest compliance for workers on site.",
+      "pipeline_type": "fixed",
+      "required_agents": [
+        "ppe"
+      ],
+      "selected_agents": [
+        "object",
+        "ppe",
+        "defect",
+        "ocr",
+        "scene",
+        "rag",
+        "rca",
+        "recommendation"
+      ],
+      "executed_agents": [
+        "object",
+        "ppe",
+        "recommendation"
+      ],
+      "num_agents": 8,
+      "precision": 0.125,
+      "recall": 1.0,
+      "f1": 0.2222,
+      "latency_ms": 2452.51,
+      "evidence_support": 1.0,
+      "answer_correctness": 1.0,
+      "success": true,
+      "error_msg": null,
+      "findings_count": 33
+    },
+    {
+      "item_id": "TC-PPE-04",
+      "session_id": "session_ppe_site_01",
+      "query": "Count the number of individuals and inspect their safety gear.",
+      "pipeline_type": "fixed",
+      "required_agents": [
+        "ppe",
+        "object"
+      ],
+      "selected_agents": [
+        "object",
+        "ppe",
+        "defect",
+        "ocr",
+        "scene",
+        "rag",
+        "rca",
+        "recommendation"
+      ],
+      "executed_agents": [
+        "object"
+      ],
+      "num_agents": 8,
+      "precision": 0.25,
+      "recall": 1.0,
+      "f1": 0.4,
+      "latency_ms": 1828.47,
+      "evidence_support": 0.5,
+      "answer_correctness": 0.0,
+      "success": true,
+      "error_msg": null,
+      "findings_count": 18
+    },
+    {
+      "item_id": "TC-PPE-05",
+      "session_id": "session_ppe_site_01",
+      "query": "Is the worker properly protected against impact hazards?",
+      "pipeline_type": "fixed",
+      "required_agents": [
+        "ppe"
+      ],
+      "selected_agents": [
+        "object",
+        "ppe",
+        "defect",
+        "ocr",
+        "scene",
+        "rag",
+        "rca",
+        "recommendation"
+      ],
+      "executed_agents": [
+        "object",
+        "scene"
+      ],
+      "num_agents": 8,
+      "precision": 0.125,
+      "recall": 1.0,
+      "f1": 0.2222,
+      "latency_ms": 1877.38,
+      "evidence_support": 0.0,
+      "answer_correctness": 0.0,
+      "success": true,
+      "error_msg": null,
+      "findings_count": 19
+    },
+    {
+      "item_id": "TC-DEF-01",
+      "session_id": "session_steel_mill_02",
+      "query": "Inspect this cold-rolled steel surface for crazing micro-cracks.",
+      "pipeline_type": "fixed",
+      "required_agents": [
+        "defect"
+      ],
+      "selected_agents": [
+        "object",
+        "ppe",
+        "defect",
+        "ocr",
+        "scene",
+        "rag",
+        "rca",
+        "recommendation"
+      ],
+      "executed_agents": [
+        "object",
+        "defect",
+        "rca",
+        "recommendation"
+      ],
+      "num_agents": 8,
+      "precision": 0.125,
+      "recall": 1.0,
+      "f1": 0.2222,
+      "latency_ms": 487.91,
+      "evidence_support": 1.0,
+      "answer_correctness": 1.0,
+      "success": true,
+      "error_msg": null,
+      "findings_count": 1
+    },
+    {
+      "item_id": "TC-DEF-02",
+      "session_id": "session_steel_mill_02",
+      "query": "Identify any surface scratches or mechanical gouges on the sheet.",
+      "pipeline_type": "fixed",
+      "required_agents": [
+        "defect"
+      ],
+      "selected_agents": [
+        "object",
+        "ppe",
+        "defect",
+        "ocr",
+        "scene",
+        "rag",
+        "rca",
+        "recommendation"
+      ],
+      "executed_agents": [
+        "object",
+        "defect",
+        "rca",
+        "recommendation"
+      ],
+      "num_agents": 8,
+      "precision": 0.125,
+      "recall": 1.0,
+      "f1": 0.2222,
+      "latency_ms": 421.83,
+      "evidence_support": 1.0,
+      "answer_correctness": 1.0,
+      "success": true,
+      "error_msg": null,
+      "findings_count": 1
+    },
+    {
+      "item_id": "TC-DEF-03",
+      "session_id": "session_steel_mill_02",
+      "query": "Check the metal surface for localized corrosion pitting or cavities.",
+      "pipeline_type": "fixed",
+      "required_agents": [
+        "defect"
+      ],
+      "selected_agents": [
+        "object",
+        "ppe",
+        "defect",
+        "ocr",
+        "scene",
+        "rag",
+        "rca",
+        "recommendation"
+      ],
+      "executed_agents": [
+        "object",
+        "scene"
+      ],
+      "num_agents": 8,
+      "precision": 0.125,
+      "recall": 1.0,
+      "f1": 0.2222,
+      "latency_ms": 260.42,
+      "evidence_support": 0.0,
+      "answer_correctness": 0.0,
+      "success": true,
+      "error_msg": null,
+      "findings_count": 1
+    },
+    {
+      "item_id": "TC-DEF-04",
+      "session_id": "session_steel_mill_02",
+      "query": "Detect foreign non-metallic inclusions embedded in the steel plate.",
+      "pipeline_type": "fixed",
+      "required_agents": [
+        "defect"
+      ],
+      "selected_agents": [
+        "object",
+        "ppe",
+        "defect",
+        "ocr",
+        "scene",
+        "rag",
+        "rca",
+        "recommendation"
+      ],
+      "executed_agents": [
+        "object",
+        "defect",
+        "rca",
+        "recommendation"
+      ],
+      "num_agents": 8,
+      "precision": 0.125,
+      "recall": 1.0,
+      "f1": 0.2222,
+      "latency_ms": 297.01,
+      "evidence_support": 1.0,
+      "answer_correctness": 1.0,
+      "success": true,
+      "error_msg": null,
+      "findings_count": 1
+    },
+    {
+      "item_id": "TC-DEF-05",
+      "session_id": "session_steel_mill_02",
+      "query": "Diagnose structural patch irregularities on the metal surface.",
+      "pipeline_type": "fixed",
+      "required_agents": [
+        "defect"
+      ],
+      "selected_agents": [
+        "object",
+        "ppe",
+        "defect",
+        "ocr",
+        "scene",
+        "rag",
+        "rca",
+        "recommendation"
+      ],
+      "executed_agents": [
+        "object",
+        "rag",
+        "rca",
+        "recommendation"
+      ],
+      "num_agents": 8,
+      "precision": 0.125,
+      "recall": 1.0,
+      "f1": 0.2222,
+      "latency_ms": 2397.7,
+      "evidence_support": 0.0,
+      "answer_correctness": 0.0,
+      "success": true,
+      "error_msg": null,
+      "findings_count": 0
+    },
+    {
+      "item_id": "TC-OCR-01",
+      "session_id": "session_ocr_equipment_03",
+      "query": "Read the warning sign text and regulatory compliance notice.",
+      "pipeline_type": "fixed",
+      "required_agents": [
+        "ocr"
+      ],
+      "selected_agents": [
+        "object",
+        "ppe",
+        "defect",
+        "ocr",
+        "scene",
+        "rag",
+        "rca",
+        "recommendation"
+      ],
+      "executed_agents": [
+        "ocr"
+      ],
+      "num_agents": 8,
+      "precision": 0.125,
+      "recall": 1.0,
+      "f1": 0.2222,
+      "latency_ms": 4560.23,
+      "evidence_support": 1.0,
+      "answer_correctness": 1.0,
+      "success": true,
+      "error_msg": null,
+      "findings_count": 7
+    },
+    {
+      "item_id": "TC-OCR-02",
+      "session_id": "session_ocr_equipment_03",
+      "query": "Extract the machine serial number and rated voltage from the plate.",
+      "pipeline_type": "fixed",
+      "required_agents": [
+        "ocr"
+      ],
+      "selected_agents": [
+        "object",
+        "ppe",
+        "defect",
+        "ocr",
+        "scene",
+        "rag",
+        "rca",
+        "recommendation"
+      ],
+      "executed_agents": [
+        "ocr"
+      ],
+      "num_agents": 8,
+      "precision": 0.125,
+      "recall": 1.0,
+      "f1": 0.2222,
+      "latency_ms": 2080.78,
+      "evidence_support": 1.0,
+      "answer_correctness": 1.0,
+      "success": true,
+      "error_msg": null,
+      "findings_count": 7
+    },
+    {
+      "item_id": "TC-OCR-03",
+      "session_id": "session_ocr_equipment_03",
+      "query": "What industrial station number is printed at the bottom of the sign?",
+      "pipeline_type": "fixed",
+      "required_agents": [
+        "ocr"
+      ],
+      "selected_agents": [
+        "object",
+        "ppe",
+        "defect",
+        "ocr",
+        "scene",
+        "rag",
+        "rca",
+        "recommendation"
+      ],
+      "executed_agents": [
+        "ocr"
+      ],
+      "num_agents": 8,
+      "precision": 0.125,
+      "recall": 1.0,
+      "f1": 0.2222,
+      "latency_ms": 2171.26,
+      "evidence_support": 1.0,
+      "answer_correctness": 1.0,
+      "success": true,
+      "error_msg": null,
+      "findings_count": 7
+    },
+    {
+      "item_id": "TC-OCR-04",
+      "session_id": "session_ocr_equipment_03",
+      "query": "Read the certified engineering safety standard on this machine.",
+      "pipeline_type": "fixed",
+      "required_agents": [
+        "ocr"
+      ],
+      "selected_agents": [
+        "object",
+        "ppe",
+        "defect",
+        "ocr",
+        "scene",
+        "rag",
+        "rca",
+        "recommendation"
+      ],
+      "executed_agents": [
+        "ocr"
+      ],
+      "num_agents": 8,
+      "precision": 0.125,
+      "recall": 1.0,
+      "f1": 0.2222,
+      "latency_ms": 1937.67,
+      "evidence_support": 1.0,
+      "answer_correctness": 1.0,
+      "success": true,
+      "error_msg": null,
+      "findings_count": 7
+    },
+    {
+      "item_id": "TC-SCN-01",
+      "session_id": "session_factory_overview_04",
+      "query": "Describe the factory floor context and list visible machinery.",
+      "pipeline_type": "fixed",
+      "required_agents": [
+        "scene",
+        "object"
+      ],
+      "selected_agents": [
+        "object",
+        "ppe",
+        "defect",
+        "ocr",
+        "scene",
+        "rag",
+        "rca",
+        "recommendation"
+      ],
+      "executed_agents": [
+        "ocr"
+      ],
+      "num_agents": 8,
+      "precision": 0.25,
+      "recall": 1.0,
+      "f1": 0.4,
+      "latency_ms": 6052.47,
+      "evidence_support": 0.0,
+      "answer_correctness": 0.0,
+      "success": true,
+      "error_msg": null,
+      "findings_count": 0
+    },
+    {
+      "item_id": "TC-SCN-02",
+      "session_id": "session_factory_overview_04",
+      "query": "Identify the primary manufacturing machine and its physical enclosure.",
+      "pipeline_type": "fixed",
+      "required_agents": [
+        "object"
+      ],
+      "selected_agents": [
+        "object",
+        "ppe",
+        "defect",
+        "ocr",
+        "scene",
+        "rag",
+        "rca",
+        "recommendation"
+      ],
+      "executed_agents": [
+        "object",
+        "scene"
+      ],
+      "num_agents": 8,
+      "precision": 0.125,
+      "recall": 1.0,
+      "f1": 0.2222,
+      "latency_ms": 420.82,
+      "evidence_support": 1.0,
+      "answer_correctness": 1.0,
+      "success": true,
+      "error_msg": null,
+      "findings_count": 1
+    },
+    {
+      "item_id": "TC-SCN-03",
+      "session_id": "session_factory_overview_04",
+      "query": "Count all visible operators and workstations in this view.",
+      "pipeline_type": "fixed",
+      "required_agents": [
+        "object"
+      ],
+      "selected_agents": [
+        "object",
+        "ppe",
+        "defect",
+        "ocr",
+        "scene",
+        "rag",
+        "rca",
+        "recommendation"
+      ],
+      "executed_agents": [
+        "object"
+      ],
+      "num_agents": 8,
+      "precision": 0.125,
+      "recall": 1.0,
+      "f1": 0.2222,
+      "latency_ms": 1908.72,
+      "evidence_support": 1.0,
+      "answer_correctness": 1.0,
+      "success": true,
+      "error_msg": null,
+      "findings_count": 18
+    },
+    {
+      "item_id": "TC-SCN-04",
+      "session_id": "session_factory_overview_04",
+      "query": "Provide an environmental hazard overview of this industrial facility.",
+      "pipeline_type": "fixed",
+      "required_agents": [
+        "scene"
+      ],
+      "selected_agents": [
+        "object",
+        "ppe",
+        "defect",
+        "ocr",
+        "scene",
+        "rag",
+        "rca",
+        "recommendation"
+      ],
+      "executed_agents": [
+        "scene"
+      ],
+      "num_agents": 8,
+      "precision": 0.125,
+      "recall": 1.0,
+      "f1": 0.2222,
+      "latency_ms": 1764.02,
+      "evidence_support": 1.0,
+      "answer_correctness": 1.0,
+      "success": true,
+      "error_msg": null,
+      "findings_count": 1
+    },
+    {
+      "item_id": "TC-HYB-01",
+      "session_id": "session_hybrid_inspection_05",
+      "query": "Detect surface scratches and read the caution label on the machine.",
+      "pipeline_type": "fixed",
+      "required_agents": [
+        "defect",
+        "ocr"
+      ],
+      "selected_agents": [
+        "object",
+        "ppe",
+        "defect",
+        "ocr",
+        "scene",
+        "rag",
+        "rca",
+        "recommendation"
+      ],
+      "executed_agents": [
+        "ocr"
+      ],
+      "num_agents": 8,
+      "precision": 0.25,
+      "recall": 1.0,
+      "f1": 0.4,
+      "latency_ms": 1975.51,
+      "evidence_support": 0.5,
+      "answer_correctness": 0.0,
+      "success": true,
+      "error_msg": null,
+      "findings_count": 3
+    },
+    {
+      "item_id": "TC-HYB-02",
+      "session_id": "session_hybrid_inspection_05",
+      "query": "Verify PPE compliance and cite the relevant OSHA head protection standard.",
+      "pipeline_type": "fixed",
+      "required_agents": [
+        "ppe",
+        "rag"
+      ],
+      "selected_agents": [
+        "object",
+        "ppe",
+        "defect",
+        "ocr",
+        "scene",
+        "rag",
+        "rca",
+        "recommendation"
+      ],
+      "executed_agents": [
+        "object",
+        "ppe",
+        "recommendation"
+      ],
+      "num_agents": 8,
+      "precision": 0.25,
+      "recall": 1.0,
+      "f1": 0.4,
+      "latency_ms": 2406.33,
+      "evidence_support": 0.5,
+      "answer_correctness": 0.0,
+      "success": true,
+      "error_msg": null,
+      "findings_count": 33
+    },
+    {
+      "item_id": "TC-HYB-03",
+      "session_id": "session_hybrid_inspection_05",
+      "query": "Classify the surface steel defect and retrieve ASTM A568 tolerance limits.",
+      "pipeline_type": "fixed",
+      "required_agents": [
+        "defect",
+        "rag"
+      ],
+      "selected_agents": [
+        "object",
+        "ppe",
+        "defect",
+        "ocr",
+        "scene",
+        "rag",
+        "rca",
+        "recommendation"
+      ],
+      "executed_agents": [
+        "object",
+        "defect",
+        "rca",
+        "recommendation"
+      ],
+      "num_agents": 8,
+      "precision": 0.25,
+      "recall": 1.0,
+      "f1": 0.4,
+      "latency_ms": 298.98,
+      "evidence_support": 0.5,
+      "answer_correctness": 0.0,
+      "success": true,
+      "error_msg": null,
+      "findings_count": 1
+    },
+    {
+      "item_id": "TC-HYB-04",
+      "session_id": "session_hybrid_inspection_05",
+      "query": "Examine the lathe workstation, extract caution text, and inspect for scratches.",
+      "pipeline_type": "fixed",
+      "required_agents": [
+        "defect",
+        "ocr",
+        "scene"
+      ],
+      "selected_agents": [
+        "object",
+        "ppe",
+        "defect",
+        "ocr",
+        "scene",
+        "rag",
+        "rca",
+        "recommendation"
+      ],
+      "executed_agents": [
+        "ocr"
+      ],
+      "num_agents": 8,
+      "precision": 0.375,
+      "recall": 1.0,
+      "f1": 0.5455,
+      "latency_ms": 2001.71,
+      "evidence_support": 0.3333,
+      "answer_correctness": 0.0,
+      "success": true,
+      "error_msg": null,
+      "findings_count": 3
+    },
+    {
+      "item_id": "TC-AMB-01",
+      "session_id": "session_ambiguous_edge_06",
+      "query": "What is visible here?",
+      "pipeline_type": "fixed",
+      "required_agents": [
+        "object",
+        "scene"
+      ],
+      "selected_agents": [
+        "object",
+        "ppe",
+        "defect",
+        "ocr",
+        "scene",
+        "rag",
+        "rca",
+        "recommendation"
+      ],
+      "executed_agents": [
+        "object",
+        "scene"
+      ],
+      "num_agents": 8,
+      "precision": 0.25,
+      "recall": 1.0,
+      "f1": 0.4,
+      "latency_ms": 1859.03,
+      "evidence_support": 1.0,
+      "answer_correctness": 1.0,
+      "success": true,
+      "error_msg": null,
+      "findings_count": 19
+    },
+    {
+      "item_id": "TC-AMB-02",
+      "session_id": "session_ambiguous_edge_06",
+      "query": "Perform general visual inspection.",
+      "pipeline_type": "fixed",
+      "required_agents": [
+        "object",
+        "scene"
+      ],
+      "selected_agents": [
+        "object",
+        "ppe",
+        "defect",
+        "ocr",
+        "scene",
+        "rag",
+        "rca",
+        "recommendation"
+      ],
+      "executed_agents": [
+        "object",
+        "scene"
+      ],
+      "num_agents": 8,
+      "precision": 0.25,
+      "recall": 1.0,
+      "f1": 0.4,
+      "latency_ms": 1003.96,
+      "evidence_support": 1.0,
+      "answer_correctness": 1.0,
+      "success": true,
+      "error_msg": null,
+      "findings_count": 2
+    }
+  ],
+  "rule_based": [
+    {
+      "item_id": "TC-PPE-01",
+      "session_id": "session_ppe_site_01",
+      "query": "Check whether personnel are wearing hard hats and safety vests.",
+      "pipeline_type": "rule_based",
+      "required_agents": [
+        "ppe"
+      ],
+      "selected_agents": [
+        "object",
+        "ppe",
+        "recommendation"
+      ],
+      "executed_agents": [
+        "object",
+        "ppe",
+        "recommendation"
+      ],
+      "num_agents": 3,
+      "precision": 0.3333,
+      "recall": 1.0,
+      "f1": 0.5,
+      "latency_ms": 2061.76,
+      "evidence_support": 1.0,
+      "answer_correctness": 1.0,
+      "success": true,
+      "error_msg": null,
+      "findings_count": 33
+    },
+    {
+      "item_id": "TC-PPE-02",
+      "session_id": "session_ppe_site_01",
+      "query": "Detect any OSHA head protection violations in this work area.",
+      "pipeline_type": "rule_based",
+      "required_agents": [
+        "ppe"
+      ],
+      "selected_agents": [
+        "rag"
+      ],
+      "executed_agents": [
+        "object",
+        "ppe",
+        "recommendation"
+      ],
+      "num_agents": 1,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "latency_ms": 2102.79,
+      "evidence_support": 1.0,
+      "answer_correctness": 1.0,
+      "success": true,
+      "error_msg": null,
+      "findings_count": 33
+    },
+    {
+      "item_id": "TC-PPE-03",
+      "session_id": "session_ppe_site_01",
+      "query": "Verify high-visibility vest compliance for workers on site.",
+      "pipeline_type": "rule_based",
+      "required_agents": [
+        "ppe"
+      ],
+      "selected_agents": [
+        "object",
+        "ppe",
+        "recommendation"
+      ],
+      "executed_agents": [
+        "object",
+        "ppe",
+        "recommendation"
+      ],
+      "num_agents": 3,
+      "precision": 0.3333,
+      "recall": 1.0,
+      "f1": 0.5,
+      "latency_ms": 2352.36,
+      "evidence_support": 1.0,
+      "answer_correctness": 1.0,
+      "success": true,
+      "error_msg": null,
+      "findings_count": 33
+    },
+    {
+      "item_id": "TC-PPE-04",
+      "session_id": "session_ppe_site_01",
+      "query": "Count the number of individuals and inspect their safety gear.",
+      "pipeline_type": "rule_based",
+      "required_agents": [
+        "ppe",
+        "object"
+      ],
+      "selected_agents": [
+        "object"
+      ],
+      "executed_agents": [
+        "object"
+      ],
+      "num_agents": 1,
+      "precision": 1.0,
+      "recall": 0.5,
+      "f1": 0.6667,
+      "latency_ms": 1971.24,
+      "evidence_support": 0.5,
+      "answer_correctness": 0.0,
+      "success": true,
+      "error_msg": null,
+      "findings_count": 18
+    },
+    {
+      "item_id": "TC-PPE-05",
+      "session_id": "session_ppe_site_01",
+      "query": "Is the worker properly protected against impact hazards?",
+      "pipeline_type": "rule_based",
+      "required_agents": [
+        "ppe"
+      ],
+      "selected_agents": [
+        "object"
+      ],
+      "executed_agents": [
+        "object",
+        "scene"
+      ],
+      "num_agents": 1,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "latency_ms": 2172.41,
+      "evidence_support": 0.0,
+      "answer_correctness": 0.0,
+      "success": true,
+      "error_msg": null,
+      "findings_count": 19
+    },
+    {
+      "item_id": "TC-DEF-01",
+      "session_id": "session_steel_mill_02",
+      "query": "Inspect this cold-rolled steel surface for crazing micro-cracks.",
+      "pipeline_type": "rule_based",
+      "required_agents": [
+        "defect"
+      ],
+      "selected_agents": [
+        "defect",
+        "rca",
+        "recommendation"
+      ],
+      "executed_agents": [
+        "object",
+        "defect",
+        "rca",
+        "recommendation"
+      ],
+      "num_agents": 3,
+      "precision": 0.3333,
+      "recall": 1.0,
+      "f1": 0.5,
+      "latency_ms": 453.75,
+      "evidence_support": 1.0,
+      "answer_correctness": 1.0,
+      "success": true,
+      "error_msg": null,
+      "findings_count": 1
+    },
+    {
+      "item_id": "TC-DEF-02",
+      "session_id": "session_steel_mill_02",
+      "query": "Identify any surface scratches or mechanical gouges on the sheet.",
+      "pipeline_type": "rule_based",
+      "required_agents": [
+        "defect"
+      ],
+      "selected_agents": [
+        "defect",
+        "rca",
+        "recommendation"
+      ],
+      "executed_agents": [
+        "object",
+        "defect",
+        "rca",
+        "recommendation"
+      ],
+      "num_agents": 3,
+      "precision": 0.3333,
+      "recall": 1.0,
+      "f1": 0.5,
+      "latency_ms": 265.4,
+      "evidence_support": 1.0,
+      "answer_correctness": 1.0,
+      "success": true,
+      "error_msg": null,
+      "findings_count": 1
+    },
+    {
+      "item_id": "TC-DEF-03",
+      "session_id": "session_steel_mill_02",
+      "query": "Check the metal surface for localized corrosion pitting or cavities.",
+      "pipeline_type": "rule_based",
+      "required_agents": [
+        "defect"
+      ],
+      "selected_agents": [
+        "defect",
+        "rca",
+        "recommendation"
+      ],
+      "executed_agents": [
+        "object",
+        "scene"
+      ],
+      "num_agents": 3,
+      "precision": 0.3333,
+      "recall": 1.0,
+      "f1": 0.5,
+      "latency_ms": 243.98,
+      "evidence_support": 0.0,
+      "answer_correctness": 0.0,
+      "success": true,
+      "error_msg": null,
+      "findings_count": 1
+    },
+    {
+      "item_id": "TC-DEF-04",
+      "session_id": "session_steel_mill_02",
+      "query": "Detect foreign non-metallic inclusions embedded in the steel plate.",
+      "pipeline_type": "rule_based",
+      "required_agents": [
+        "defect"
+      ],
+      "selected_agents": [
+        "defect",
+        "rca",
+        "recommendation"
+      ],
+      "executed_agents": [
+        "object",
+        "defect",
+        "rca",
+        "recommendation"
+      ],
+      "num_agents": 3,
+      "precision": 0.3333,
+      "recall": 1.0,
+      "f1": 0.5,
+      "latency_ms": 281.51,
+      "evidence_support": 1.0,
+      "answer_correctness": 1.0,
+      "success": true,
+      "error_msg": null,
+      "findings_count": 1
+    },
+    {
+      "item_id": "TC-DEF-05",
+      "session_id": "session_steel_mill_02",
+      "query": "Diagnose structural patch irregularities on the metal surface.",
+      "pipeline_type": "rule_based",
+      "required_agents": [
+        "defect"
+      ],
+      "selected_agents": [
+        "object"
+      ],
+      "executed_agents": [
+        "object",
+        "rag",
+        "rca",
+        "recommendation"
+      ],
+      "num_agents": 1,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "latency_ms": 260.36,
+      "evidence_support": 0.0,
+      "answer_correctness": 0.0,
+      "success": true,
+      "error_msg": null,
+      "findings_count": 0
+    },
+    {
+      "item_id": "TC-OCR-01",
+      "session_id": "session_ocr_equipment_03",
+      "query": "Read the warning sign text and regulatory compliance notice.",
+      "pipeline_type": "rule_based",
+      "required_agents": [
+        "ocr"
+      ],
+      "selected_agents": [
+        "ocr"
+      ],
+      "executed_agents": [
+        "ocr"
+      ],
+      "num_agents": 1,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "latency_ms": 2003.22,
+      "evidence_support": 1.0,
+      "answer_correctness": 1.0,
+      "success": true,
+      "error_msg": null,
+      "findings_count": 7
+    },
+    {
+      "item_id": "TC-OCR-02",
+      "session_id": "session_ocr_equipment_03",
+      "query": "Extract the machine serial number and rated voltage from the plate.",
+      "pipeline_type": "rule_based",
+      "required_agents": [
+        "ocr"
+      ],
+      "selected_agents": [
+        "ocr"
+      ],
+      "executed_agents": [
+        "ocr"
+      ],
+      "num_agents": 1,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "latency_ms": 2520.93,
+      "evidence_support": 1.0,
+      "answer_correctness": 1.0,
+      "success": true,
+      "error_msg": null,
+      "findings_count": 7
+    },
+    {
+      "item_id": "TC-OCR-03",
+      "session_id": "session_ocr_equipment_03",
+      "query": "What industrial station number is printed at the bottom of the sign?",
+      "pipeline_type": "rule_based",
+      "required_agents": [
+        "ocr"
+      ],
+      "selected_agents": [
+        "object"
+      ],
+      "executed_agents": [
+        "ocr"
+      ],
+      "num_agents": 1,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "latency_ms": 2028.57,
+      "evidence_support": 1.0,
+      "answer_correctness": 1.0,
+      "success": true,
+      "error_msg": null,
+      "findings_count": 7
+    },
+    {
+      "item_id": "TC-OCR-04",
+      "session_id": "session_ocr_equipment_03",
+      "query": "Read the certified engineering safety standard on this machine.",
+      "pipeline_type": "rule_based",
+      "required_agents": [
+        "ocr"
+      ],
+      "selected_agents": [
+        "ocr",
+        "rag"
+      ],
+      "executed_agents": [
+        "ocr"
+      ],
+      "num_agents": 2,
+      "precision": 0.5,
+      "recall": 1.0,
+      "f1": 0.6667,
+      "latency_ms": 2230.46,
+      "evidence_support": 1.0,
+      "answer_correctness": 1.0,
+      "success": true,
+      "error_msg": null,
+      "findings_count": 7
+    },
+    {
+      "item_id": "TC-SCN-01",
+      "session_id": "session_factory_overview_04",
+      "query": "Describe the factory floor context and list visible machinery.",
+      "pipeline_type": "rule_based",
+      "required_agents": [
+        "scene",
+        "object"
+      ],
+      "selected_agents": [
+        "object",
+        "ocr",
+        "scene"
+      ],
+      "executed_agents": [
+        "ocr"
+      ],
+      "num_agents": 3,
+      "precision": 0.6667,
+      "recall": 1.0,
+      "f1": 0.8,
+      "latency_ms": 6249.37,
+      "evidence_support": 0.0,
+      "answer_correctness": 0.0,
+      "success": true,
+      "error_msg": null,
+      "findings_count": 0
+    },
+    {
+      "item_id": "TC-SCN-02",
+      "session_id": "session_factory_overview_04",
+      "query": "Identify the primary manufacturing machine and its physical enclosure.",
+      "pipeline_type": "rule_based",
+      "required_agents": [
+        "object"
+      ],
+      "selected_agents": [
+        "object"
+      ],
+      "executed_agents": [
+        "object",
+        "scene"
+      ],
+      "num_agents": 1,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "latency_ms": 448.7,
+      "evidence_support": 1.0,
+      "answer_correctness": 1.0,
+      "success": true,
+      "error_msg": null,
+      "findings_count": 1
+    },
+    {
+      "item_id": "TC-SCN-03",
+      "session_id": "session_factory_overview_04",
+      "query": "Count all visible operators and workstations in this view.",
+      "pipeline_type": "rule_based",
+      "required_agents": [
+        "object"
+      ],
+      "selected_agents": [
+        "object"
+      ],
+      "executed_agents": [
+        "object"
+      ],
+      "num_agents": 1,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "latency_ms": 2058.72,
+      "evidence_support": 1.0,
+      "answer_correctness": 1.0,
+      "success": true,
+      "error_msg": null,
+      "findings_count": 18
+    },
+    {
+      "item_id": "TC-SCN-04",
+      "session_id": "session_factory_overview_04",
+      "query": "Provide an environmental hazard overview of this industrial facility.",
+      "pipeline_type": "rule_based",
+      "required_agents": [
+        "scene"
+      ],
+      "selected_agents": [
+        "object"
+      ],
+      "executed_agents": [
+        "scene"
+      ],
+      "num_agents": 1,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "latency_ms": 1697.39,
+      "evidence_support": 1.0,
+      "answer_correctness": 1.0,
+      "success": true,
+      "error_msg": null,
+      "findings_count": 1
+    },
+    {
+      "item_id": "TC-HYB-01",
+      "session_id": "session_hybrid_inspection_05",
+      "query": "Detect surface scratches and read the caution label on the machine.",
+      "pipeline_type": "rule_based",
+      "required_agents": [
+        "defect",
+        "ocr"
+      ],
+      "selected_agents": [
+        "defect",
+        "ocr",
+        "rca",
+        "recommendation"
+      ],
+      "executed_agents": [
+        "ocr"
+      ],
+      "num_agents": 4,
+      "precision": 0.5,
+      "recall": 1.0,
+      "f1": 0.6667,
+      "latency_ms": 1958.84,
+      "evidence_support": 0.5,
+      "answer_correctness": 0.0,
+      "success": true,
+      "error_msg": null,
+      "findings_count": 3
+    },
+    {
+      "item_id": "TC-HYB-02",
+      "session_id": "session_hybrid_inspection_05",
+      "query": "Verify PPE compliance and cite the relevant OSHA head protection standard.",
+      "pipeline_type": "rule_based",
+      "required_agents": [
+        "ppe",
+        "rag"
+      ],
+      "selected_agents": [
+        "object",
+        "ppe",
+        "rag",
+        "recommendation"
+      ],
+      "executed_agents": [
+        "object",
+        "ppe",
+        "recommendation"
+      ],
+      "num_agents": 4,
+      "precision": 0.5,
+      "recall": 1.0,
+      "f1": 0.6667,
+      "latency_ms": 2086.79,
+      "evidence_support": 0.5,
+      "answer_correctness": 0.0,
+      "success": true,
+      "error_msg": null,
+      "findings_count": 33
+    },
+    {
+      "item_id": "TC-HYB-03",
+      "session_id": "session_hybrid_inspection_05",
+      "query": "Classify the surface steel defect and retrieve ASTM A568 tolerance limits.",
+      "pipeline_type": "rule_based",
+      "required_agents": [
+        "defect",
+        "rag"
+      ],
+      "selected_agents": [
+        "defect",
+        "rag",
+        "rca",
+        "recommendation"
+      ],
+      "executed_agents": [
+        "object",
+        "defect",
+        "rca",
+        "recommendation"
+      ],
+      "num_agents": 4,
+      "precision": 0.5,
+      "recall": 1.0,
+      "f1": 0.6667,
+      "latency_ms": 369.03,
+      "evidence_support": 0.5,
+      "answer_correctness": 0.0,
+      "success": true,
+      "error_msg": null,
+      "findings_count": 1
+    },
+    {
+      "item_id": "TC-HYB-04",
+      "session_id": "session_hybrid_inspection_05",
+      "query": "Examine the lathe workstation, extract caution text, and inspect for scratches.",
+      "pipeline_type": "rule_based",
+      "required_agents": [
+        "defect",
+        "ocr",
+        "scene"
+      ],
+      "selected_agents": [
+        "defect",
+        "ocr",
+        "rca",
+        "recommendation"
+      ],
+      "executed_agents": [
+        "ocr"
+      ],
+      "num_agents": 4,
+      "precision": 0.5,
+      "recall": 0.6667,
+      "f1": 0.5714,
+      "latency_ms": 1869.95,
+      "evidence_support": 0.3333,
+      "answer_correctness": 0.0,
+      "success": true,
+      "error_msg": null,
+      "findings_count": 3
+    },
+    {
+      "item_id": "TC-AMB-01",
+      "session_id": "session_ambiguous_edge_06",
+      "query": "What is visible here?",
+      "pipeline_type": "rule_based",
+      "required_agents": [
+        "object",
+        "scene"
+      ],
+      "selected_agents": [
+        "object"
+      ],
+      "executed_agents": [
+        "object",
+        "scene"
+      ],
+      "num_agents": 1,
+      "precision": 1.0,
+      "recall": 0.5,
+      "f1": 0.6667,
+      "latency_ms": 2447.68,
+      "evidence_support": 1.0,
+      "answer_correctness": 1.0,
+      "success": true,
+      "error_msg": null,
+      "findings_count": 19
+    },
+    {
+      "item_id": "TC-AMB-02",
+      "session_id": "session_ambiguous_edge_06",
+      "query": "Perform general visual inspection.",
+      "pipeline_type": "rule_based",
+      "required_agents": [
+        "object",
+        "scene"
+      ],
+      "selected_agents": [
+        "object"
+      ],
+      "executed_agents": [
+        "object",
+        "scene"
+      ],
+      "num_agents": 1,
+      "precision": 1.0,
+      "recall": 0.5,
+      "f1": 0.6667,
+      "latency_ms": 884.09,
+      "evidence_support": 1.0,
+      "answer_correctness": 1.0,
+      "success": true,
+      "error_msg": null,
+      "findings_count": 2
+    }
+  ],
+  "adaptive": [
+    {
+      "item_id": "TC-PPE-01",
+      "session_id": "session_ppe_site_01",
+      "query": "Check whether personnel are wearing hard hats and safety vests.",
+      "pipeline_type": "adaptive",
+      "required_agents": [
+        "ppe"
+      ],
+      "selected_agents": [
+        "object",
+        "ppe",
+        "evidence_validation",
+        "recommendation"
+      ],
+      "executed_agents": [
+        "object",
+        "ppe",
+        "recommendation"
+      ],
+      "num_agents": 4,
+      "precision": 0.3333,
+      "recall": 1.0,
+      "f1": 0.5,
+      "latency_ms": 2136.88,
+      "evidence_support": 1.0,
+      "answer_correctness": 1.0,
+      "success": true,
+      "error_msg": null,
+      "findings_count": 33
+    },
+    {
+      "item_id": "TC-PPE-02",
+      "session_id": "session_ppe_site_01",
+      "query": "Detect any OSHA head protection violations in this work area.",
+      "pipeline_type": "adaptive",
+      "required_agents": [
+        "ppe"
+      ],
+      "selected_agents": [
+        "object",
+        "ppe",
+        "evidence_validation",
+        "recommendation"
+      ],
+      "executed_agents": [
+        "object",
+        "ppe",
+        "recommendation"
+      ],
+      "num_agents": 4,
+      "precision": 0.3333,
+      "recall": 1.0,
+      "f1": 0.5,
+      "latency_ms": 2211.51,
+      "evidence_support": 1.0,
+      "answer_correctness": 1.0,
+      "success": true,
+      "error_msg": null,
+      "findings_count": 33
+    },
+    {
+      "item_id": "TC-PPE-03",
+      "session_id": "session_ppe_site_01",
+      "query": "Verify high-visibility vest compliance for workers on site.",
+      "pipeline_type": "adaptive",
+      "required_agents": [
+        "ppe"
+      ],
+      "selected_agents": [
+        "object",
+        "ppe",
+        "evidence_validation",
+        "recommendation"
+      ],
+      "executed_agents": [
+        "object",
+        "ppe",
+        "recommendation"
+      ],
+      "num_agents": 4,
+      "precision": 0.3333,
+      "recall": 1.0,
+      "f1": 0.5,
+      "latency_ms": 2133.53,
+      "evidence_support": 1.0,
+      "answer_correctness": 1.0,
+      "success": true,
+      "error_msg": null,
+      "findings_count": 33
+    },
+    {
+      "item_id": "TC-PPE-04",
+      "session_id": "session_ppe_site_01",
+      "query": "Count the number of individuals and inspect their safety gear.",
+      "pipeline_type": "adaptive",
+      "required_agents": [
+        "ppe",
+        "object"
+      ],
+      "selected_agents": [
+        "object",
+        "evidence_validation"
+      ],
+      "executed_agents": [
+        "object"
+      ],
+      "num_agents": 2,
+      "precision": 1.0,
+      "recall": 0.5,
+      "f1": 0.6667,
+      "latency_ms": 2001.71,
+      "evidence_support": 0.5,
+      "answer_correctness": 0.0,
+      "success": true,
+      "error_msg": null,
+      "findings_count": 18
+    },
+    {
+      "item_id": "TC-PPE-05",
+      "session_id": "session_ppe_site_01",
+      "query": "Is the worker properly protected against impact hazards?",
+      "pipeline_type": "adaptive",
+      "required_agents": [
+        "ppe"
+      ],
+      "selected_agents": [
+        "object",
+        "scene",
+        "evidence_validation"
+      ],
+      "executed_agents": [
+        "object",
+        "scene"
+      ],
+      "num_agents": 3,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "latency_ms": 2208.27,
+      "evidence_support": 0.0,
+      "answer_correctness": 0.0,
+      "success": true,
+      "error_msg": null,
+      "findings_count": 19
+    },
+    {
+      "item_id": "TC-DEF-01",
+      "session_id": "session_steel_mill_02",
+      "query": "Inspect this cold-rolled steel surface for crazing micro-cracks.",
+      "pipeline_type": "adaptive",
+      "required_agents": [
+        "defect"
+      ],
+      "selected_agents": [
+        "object",
+        "defect",
+        "evidence_validation",
+        "rca",
+        "recommendation"
+      ],
+      "executed_agents": [
+        "object",
+        "defect",
+        "rca",
+        "recommendation"
+      ],
+      "num_agents": 5,
+      "precision": 0.25,
+      "recall": 1.0,
+      "f1": 0.4,
+      "latency_ms": 284.62,
+      "evidence_support": 1.0,
+      "answer_correctness": 1.0,
+      "success": true,
+      "error_msg": null,
+      "findings_count": 1
+    },
+    {
+      "item_id": "TC-DEF-02",
+      "session_id": "session_steel_mill_02",
+      "query": "Identify any surface scratches or mechanical gouges on the sheet.",
+      "pipeline_type": "adaptive",
+      "required_agents": [
+        "defect"
+      ],
+      "selected_agents": [
+        "object",
+        "defect",
+        "evidence_validation",
+        "rca",
+        "recommendation"
+      ],
+      "executed_agents": [
+        "object",
+        "defect",
+        "rca",
+        "recommendation"
+      ],
+      "num_agents": 5,
+      "precision": 0.25,
+      "recall": 1.0,
+      "f1": 0.4,
+      "latency_ms": 263.26,
+      "evidence_support": 1.0,
+      "answer_correctness": 1.0,
+      "success": true,
+      "error_msg": null,
+      "findings_count": 1
+    },
+    {
+      "item_id": "TC-DEF-03",
+      "session_id": "session_steel_mill_02",
+      "query": "Check the metal surface for localized corrosion pitting or cavities.",
+      "pipeline_type": "adaptive",
+      "required_agents": [
+        "defect"
+      ],
+      "selected_agents": [
+        "object",
+        "scene",
+        "evidence_validation"
+      ],
+      "executed_agents": [
+        "object",
+        "scene"
+      ],
+      "num_agents": 3,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "latency_ms": 230.94,
+      "evidence_support": 0.0,
+      "answer_correctness": 0.0,
+      "success": true,
+      "error_msg": null,
+      "findings_count": 1
+    },
+    {
+      "item_id": "TC-DEF-04",
+      "session_id": "session_steel_mill_02",
+      "query": "Detect foreign non-metallic inclusions embedded in the steel plate.",
+      "pipeline_type": "adaptive",
+      "required_agents": [
+        "defect"
+      ],
+      "selected_agents": [
+        "object",
+        "defect",
+        "evidence_validation",
+        "rca",
+        "recommendation"
+      ],
+      "executed_agents": [
+        "object",
+        "defect",
+        "rca",
+        "recommendation"
+      ],
+      "num_agents": 5,
+      "precision": 0.25,
+      "recall": 1.0,
+      "f1": 0.4,
+      "latency_ms": 274.66,
+      "evidence_support": 1.0,
+      "answer_correctness": 1.0,
+      "success": true,
+      "error_msg": null,
+      "findings_count": 1
+    },
+    {
+      "item_id": "TC-DEF-05",
+      "session_id": "session_steel_mill_02",
+      "query": "Diagnose structural patch irregularities on the metal surface.",
+      "pipeline_type": "adaptive",
+      "required_agents": [
+        "defect"
+      ],
+      "selected_agents": [
+        "object",
+        "evidence_validation",
+        "rag",
+        "rca",
+        "recommendation"
+      ],
+      "executed_agents": [
+        "object",
+        "rag",
+        "rca",
+        "recommendation"
+      ],
+      "num_agents": 5,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "latency_ms": 380.14,
+      "evidence_support": 0.0,
+      "answer_correctness": 0.0,
+      "success": true,
+      "error_msg": null,
+      "findings_count": 0
+    },
+    {
+      "item_id": "TC-OCR-01",
+      "session_id": "session_ocr_equipment_03",
+      "query": "Read the warning sign text and regulatory compliance notice.",
+      "pipeline_type": "adaptive",
+      "required_agents": [
+        "ocr"
+      ],
+      "selected_agents": [
+        "ocr",
+        "evidence_validation"
+      ],
+      "executed_agents": [
+        "ocr"
+      ],
+      "num_agents": 2,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "latency_ms": 2144.11,
+      "evidence_support": 1.0,
+      "answer_correctness": 1.0,
+      "success": true,
+      "error_msg": null,
+      "findings_count": 7
+    },
+    {
+      "item_id": "TC-OCR-02",
+      "session_id": "session_ocr_equipment_03",
+      "query": "Extract the machine serial number and rated voltage from the plate.",
+      "pipeline_type": "adaptive",
+      "required_agents": [
+        "ocr"
+      ],
+      "selected_agents": [
+        "ocr",
+        "evidence_validation"
+      ],
+      "executed_agents": [
+        "ocr"
+      ],
+      "num_agents": 2,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "latency_ms": 2510.47,
+      "evidence_support": 1.0,
+      "answer_correctness": 1.0,
+      "success": true,
+      "error_msg": null,
+      "findings_count": 7
+    },
+    {
+      "item_id": "TC-OCR-03",
+      "session_id": "session_ocr_equipment_03",
+      "query": "What industrial station number is printed at the bottom of the sign?",
+      "pipeline_type": "adaptive",
+      "required_agents": [
+        "ocr"
+      ],
+      "selected_agents": [
+        "ocr",
+        "evidence_validation"
+      ],
+      "executed_agents": [
+        "ocr"
+      ],
+      "num_agents": 2,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "latency_ms": 2173.89,
+      "evidence_support": 1.0,
+      "answer_correctness": 1.0,
+      "success": true,
+      "error_msg": null,
+      "findings_count": 7
+    },
+    {
+      "item_id": "TC-OCR-04",
+      "session_id": "session_ocr_equipment_03",
+      "query": "Read the certified engineering safety standard on this machine.",
+      "pipeline_type": "adaptive",
+      "required_agents": [
+        "ocr"
+      ],
+      "selected_agents": [
+        "ocr",
+        "evidence_validation"
+      ],
+      "executed_agents": [
+        "ocr"
+      ],
+      "num_agents": 2,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "latency_ms": 2406.76,
+      "evidence_support": 1.0,
+      "answer_correctness": 1.0,
+      "success": true,
+      "error_msg": null,
+      "findings_count": 7
+    },
+    {
+      "item_id": "TC-SCN-01",
+      "session_id": "session_factory_overview_04",
+      "query": "Describe the factory floor context and list visible machinery.",
+      "pipeline_type": "adaptive",
+      "required_agents": [
+        "scene",
+        "object"
+      ],
+      "selected_agents": [
+        "ocr",
+        "evidence_validation"
+      ],
+      "executed_agents": [
+        "ocr"
+      ],
+      "num_agents": 2,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "latency_ms": 6562.62,
+      "evidence_support": 0.0,
+      "answer_correctness": 0.0,
+      "success": true,
+      "error_msg": null,
+      "findings_count": 0
+    },
+    {
+      "item_id": "TC-SCN-02",
+      "session_id": "session_factory_overview_04",
+      "query": "Identify the primary manufacturing machine and its physical enclosure.",
+      "pipeline_type": "adaptive",
+      "required_agents": [
+        "object"
+      ],
+      "selected_agents": [
+        "object",
+        "scene",
+        "evidence_validation"
+      ],
+      "executed_agents": [
+        "object",
+        "scene"
+      ],
+      "num_agents": 3,
+      "precision": 0.5,
+      "recall": 1.0,
+      "f1": 0.6667,
+      "latency_ms": 463.89,
+      "evidence_support": 1.0,
+      "answer_correctness": 1.0,
+      "success": true,
+      "error_msg": null,
+      "findings_count": 1
+    },
+    {
+      "item_id": "TC-SCN-03",
+      "session_id": "session_factory_overview_04",
+      "query": "Count all visible operators and workstations in this view.",
+      "pipeline_type": "adaptive",
+      "required_agents": [
+        "object"
+      ],
+      "selected_agents": [
+        "object",
+        "evidence_validation"
+      ],
+      "executed_agents": [
+        "object"
+      ],
+      "num_agents": 2,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "latency_ms": 2067.59,
+      "evidence_support": 1.0,
+      "answer_correctness": 1.0,
+      "success": true,
+      "error_msg": null,
+      "findings_count": 18
+    },
+    {
+      "item_id": "TC-SCN-04",
+      "session_id": "session_factory_overview_04",
+      "query": "Provide an environmental hazard overview of this industrial facility.",
+      "pipeline_type": "adaptive",
+      "required_agents": [
+        "scene"
+      ],
+      "selected_agents": [
+        "scene",
+        "evidence_validation"
+      ],
+      "executed_agents": [
+        "scene"
+      ],
+      "num_agents": 2,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "latency_ms": 1972.46,
+      "evidence_support": 1.0,
+      "answer_correctness": 1.0,
+      "success": true,
+      "error_msg": null,
+      "findings_count": 1
+    },
+    {
+      "item_id": "TC-HYB-01",
+      "session_id": "session_hybrid_inspection_05",
+      "query": "Detect surface scratches and read the caution label on the machine.",
+      "pipeline_type": "adaptive",
+      "required_agents": [
+        "defect",
+        "ocr"
+      ],
+      "selected_agents": [
+        "ocr",
+        "evidence_validation"
+      ],
+      "executed_agents": [
+        "ocr"
+      ],
+      "num_agents": 2,
+      "precision": 1.0,
+      "recall": 0.5,
+      "f1": 0.6667,
+      "latency_ms": 2190.52,
+      "evidence_support": 0.5,
+      "answer_correctness": 0.0,
+      "success": true,
+      "error_msg": null,
+      "findings_count": 3
+    },
+    {
+      "item_id": "TC-HYB-02",
+      "session_id": "session_hybrid_inspection_05",
+      "query": "Verify PPE compliance and cite the relevant OSHA head protection standard.",
+      "pipeline_type": "adaptive",
+      "required_agents": [
+        "ppe",
+        "rag"
+      ],
+      "selected_agents": [
+        "object",
+        "ppe",
+        "evidence_validation",
+        "recommendation"
+      ],
+      "executed_agents": [
+        "object",
+        "ppe",
+        "recommendation"
+      ],
+      "num_agents": 4,
+      "precision": 0.3333,
+      "recall": 0.5,
+      "f1": 0.4,
+      "latency_ms": 2335.92,
+      "evidence_support": 0.5,
+      "answer_correctness": 0.0,
+      "success": true,
+      "error_msg": null,
+      "findings_count": 33
+    },
+    {
+      "item_id": "TC-HYB-03",
+      "session_id": "session_hybrid_inspection_05",
+      "query": "Classify the surface steel defect and retrieve ASTM A568 tolerance limits.",
+      "pipeline_type": "adaptive",
+      "required_agents": [
+        "defect",
+        "rag"
+      ],
+      "selected_agents": [
+        "object",
+        "defect",
+        "evidence_validation",
+        "rca",
+        "recommendation"
+      ],
+      "executed_agents": [
+        "object",
+        "defect",
+        "rca",
+        "recommendation"
+      ],
+      "num_agents": 5,
+      "precision": 0.25,
+      "recall": 0.5,
+      "f1": 0.3333,
+      "latency_ms": 506.09,
+      "evidence_support": 0.5,
+      "answer_correctness": 0.0,
+      "success": true,
+      "error_msg": null,
+      "findings_count": 1
+    },
+    {
+      "item_id": "TC-HYB-04",
+      "session_id": "session_hybrid_inspection_05",
+      "query": "Examine the lathe workstation, extract caution text, and inspect for scratches.",
+      "pipeline_type": "adaptive",
+      "required_agents": [
+        "defect",
+        "ocr",
+        "scene"
+      ],
+      "selected_agents": [
+        "ocr",
+        "evidence_validation"
+      ],
+      "executed_agents": [
+        "ocr"
+      ],
+      "num_agents": 2,
+      "precision": 1.0,
+      "recall": 0.3333,
+      "f1": 0.5,
+      "latency_ms": 1931.01,
+      "evidence_support": 0.3333,
+      "answer_correctness": 0.0,
+      "success": true,
+      "error_msg": null,
+      "findings_count": 3
+    },
+    {
+      "item_id": "TC-AMB-01",
+      "session_id": "session_ambiguous_edge_06",
+      "query": "What is visible here?",
+      "pipeline_type": "adaptive",
+      "required_agents": [
+        "object",
+        "scene"
+      ],
+      "selected_agents": [
+        "object",
+        "scene",
+        "evidence_validation"
+      ],
+      "executed_agents": [
+        "object",
+        "scene"
+      ],
+      "num_agents": 3,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "latency_ms": 2173.03,
+      "evidence_support": 1.0,
+      "answer_correctness": 1.0,
+      "success": true,
+      "error_msg": null,
+      "findings_count": 19
+    },
+    {
+      "item_id": "TC-AMB-02",
+      "session_id": "session_ambiguous_edge_06",
+      "query": "Perform general visual inspection.",
+      "pipeline_type": "adaptive",
+      "required_agents": [
+        "object",
+        "scene"
+      ],
+      "selected_agents": [
+        "object",
+        "scene",
+        "evidence_validation"
+      ],
+      "executed_agents": [
+        "object",
+        "scene"
+      ],
+      "num_agents": 3,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "latency_ms": 830.3,
+      "evidence_support": 1.0,
+      "answer_correctness": 1.0,
+      "success": true,
+      "error_msg": null,
+      "findings_count": 2
+    }
+  ],
+  "ablation_no_cost": [
+    {
+      "item_id": "TC-PPE-01",
+      "session_id": "session_ppe_site_01",
+      "query": "Check whether personnel are wearing hard hats and safety vests.",
+      "pipeline_type": "ablation_no_cost",
+      "required_agents": [
+        "ppe"
+      ],
+      "selected_agents": [
+        "object",
+        "ppe",
+        "evidence_validation",
+        "rag",
+        "recommendation"
+      ],
+      "executed_agents": [
+        "object",
+        "ppe",
+        "recommendation"
+      ],
+      "num_agents": 5,
+      "precision": 0.25,
+      "recall": 1.0,
+      "f1": 0.4,
+      "latency_ms": 2534.93,
+      "evidence_support": 1.0,
+      "answer_correctness": 1.0,
+      "success": true,
+      "error_msg": null,
+      "findings_count": 33
+    },
+    {
+      "item_id": "TC-PPE-02",
+      "session_id": "session_ppe_site_01",
+      "query": "Detect any OSHA head protection violations in this work area.",
+      "pipeline_type": "ablation_no_cost",
+      "required_agents": [
+        "ppe"
+      ],
+      "selected_agents": [
+        "object",
+        "ppe",
+        "evidence_validation",
+        "rag",
+        "recommendation"
+      ],
+      "executed_agents": [
+        "object",
+        "ppe",
+        "recommendation"
+      ],
+      "num_agents": 5,
+      "precision": 0.25,
+      "recall": 1.0,
+      "f1": 0.4,
+      "latency_ms": 2201.89,
+      "evidence_support": 1.0,
+      "answer_correctness": 1.0,
+      "success": true,
+      "error_msg": null,
+      "findings_count": 33
+    },
+    {
+      "item_id": "TC-PPE-03",
+      "session_id": "session_ppe_site_01",
+      "query": "Verify high-visibility vest compliance for workers on site.",
+      "pipeline_type": "ablation_no_cost",
+      "required_agents": [
+        "ppe"
+      ],
+      "selected_agents": [
+        "object",
+        "ppe",
+        "evidence_validation",
+        "rag",
+        "recommendation"
+      ],
+      "executed_agents": [
+        "object",
+        "ppe",
+        "recommendation"
+      ],
+      "num_agents": 5,
+      "precision": 0.25,
+      "recall": 1.0,
+      "f1": 0.4,
+      "latency_ms": 2319.3,
+      "evidence_support": 1.0,
+      "answer_correctness": 1.0,
+      "success": true,
+      "error_msg": null,
+      "findings_count": 33
+    },
+    {
+      "item_id": "TC-PPE-04",
+      "session_id": "session_ppe_site_01",
+      "query": "Count the number of individuals and inspect their safety gear.",
+      "pipeline_type": "ablation_no_cost",
+      "required_agents": [
+        "ppe",
+        "object"
+      ],
+      "selected_agents": [
+        "object",
+        "evidence_validation"
+      ],
+      "executed_agents": [
+        "object"
+      ],
+      "num_agents": 2,
+      "precision": 1.0,
+      "recall": 0.5,
+      "f1": 0.6667,
+      "latency_ms": 2224.3,
+      "evidence_support": 0.5,
+      "answer_correctness": 0.0,
+      "success": true,
+      "error_msg": null,
+      "findings_count": 18
+    },
+    {
+      "item_id": "TC-PPE-05",
+      "session_id": "session_ppe_site_01",
+      "query": "Is the worker properly protected against impact hazards?",
+      "pipeline_type": "ablation_no_cost",
+      "required_agents": [
+        "ppe"
+      ],
+      "selected_agents": [
+        "object",
+        "scene",
+        "evidence_validation"
+      ],
+      "executed_agents": [
+        "object",
+        "scene"
+      ],
+      "num_agents": 3,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "latency_ms": 2393.09,
+      "evidence_support": 0.0,
+      "answer_correctness": 0.0,
+      "success": true,
+      "error_msg": null,
+      "findings_count": 19
+    },
+    {
+      "item_id": "TC-DEF-01",
+      "session_id": "session_steel_mill_02",
+      "query": "Inspect this cold-rolled steel surface for crazing micro-cracks.",
+      "pipeline_type": "ablation_no_cost",
+      "required_agents": [
+        "defect"
+      ],
+      "selected_agents": [
+        "object",
+        "defect",
+        "evidence_validation",
+        "rag",
+        "rca",
+        "recommendation"
+      ],
+      "executed_agents": [
+        "object",
+        "defect",
+        "rca",
+        "recommendation"
+      ],
+      "num_agents": 6,
+      "precision": 0.2,
+      "recall": 1.0,
+      "f1": 0.3333,
+      "latency_ms": 326.54,
+      "evidence_support": 1.0,
+      "answer_correctness": 1.0,
+      "success": true,
+      "error_msg": null,
+      "findings_count": 1
+    },
+    {
+      "item_id": "TC-DEF-02",
+      "session_id": "session_steel_mill_02",
+      "query": "Identify any surface scratches or mechanical gouges on the sheet.",
+      "pipeline_type": "ablation_no_cost",
+      "required_agents": [
+        "defect"
+      ],
+      "selected_agents": [
+        "object",
+        "defect",
+        "evidence_validation",
+        "rag",
+        "rca",
+        "recommendation"
+      ],
+      "executed_agents": [
+        "object",
+        "defect",
+        "rca",
+        "recommendation"
+      ],
+      "num_agents": 6,
+      "precision": 0.2,
+      "recall": 1.0,
+      "f1": 0.3333,
+      "latency_ms": 347.91,
+      "evidence_support": 1.0,
+      "answer_correctness": 1.0,
+      "success": true,
+      "error_msg": null,
+      "findings_count": 1
+    },
+    {
+      "item_id": "TC-DEF-03",
+      "session_id": "session_steel_mill_02",
+      "query": "Check the metal surface for localized corrosion pitting or cavities.",
+      "pipeline_type": "ablation_no_cost",
+      "required_agents": [
+        "defect"
+      ],
+      "selected_agents": [
+        "object",
+        "scene",
+        "evidence_validation"
+      ],
+      "executed_agents": [
+        "object",
+        "scene"
+      ],
+      "num_agents": 3,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "latency_ms": 404.16,
+      "evidence_support": 0.0,
+      "answer_correctness": 0.0,
+      "success": true,
+      "error_msg": null,
+      "findings_count": 1
+    },
+    {
+      "item_id": "TC-DEF-04",
+      "session_id": "session_steel_mill_02",
+      "query": "Detect foreign non-metallic inclusions embedded in the steel plate.",
+      "pipeline_type": "ablation_no_cost",
+      "required_agents": [
+        "defect"
+      ],
+      "selected_agents": [
+        "object",
+        "defect",
+        "evidence_validation",
+        "rag",
+        "rca",
+        "recommendation"
+      ],
+      "executed_agents": [
+        "object",
+        "defect",
+        "rca",
+        "recommendation"
+      ],
+      "num_agents": 6,
+      "precision": 0.2,
+      "recall": 1.0,
+      "f1": 0.3333,
+      "latency_ms": 297.57,
+      "evidence_support": 1.0,
+      "answer_correctness": 1.0,
+      "success": true,
+      "error_msg": null,
+      "findings_count": 1
+    },
+    {
+      "item_id": "TC-DEF-05",
+      "session_id": "session_steel_mill_02",
+      "query": "Diagnose structural patch irregularities on the metal surface.",
+      "pipeline_type": "ablation_no_cost",
+      "required_agents": [
+        "defect"
+      ],
+      "selected_agents": [
+        "object",
+        "defect",
+        "scene",
+        "evidence_validation",
+        "rag",
+        "rca",
+        "recommendation"
+      ],
+      "executed_agents": [
+        "object",
+        "rag",
+        "rca",
+        "recommendation"
+      ],
+      "num_agents": 7,
+      "precision": 0.1667,
+      "recall": 1.0,
+      "f1": 0.2857,
+      "latency_ms": 328.41,
+      "evidence_support": 0.0,
+      "answer_correctness": 0.0,
+      "success": true,
+      "error_msg": null,
+      "findings_count": 0
+    },
+    {
+      "item_id": "TC-OCR-01",
+      "session_id": "session_ocr_equipment_03",
+      "query": "Read the warning sign text and regulatory compliance notice.",
+      "pipeline_type": "ablation_no_cost",
+      "required_agents": [
+        "ocr"
+      ],
+      "selected_agents": [
+        "ocr",
+        "evidence_validation"
+      ],
+      "executed_agents": [
+        "ocr"
+      ],
+      "num_agents": 2,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "latency_ms": 2760.14,
+      "evidence_support": 1.0,
+      "answer_correctness": 1.0,
+      "success": true,
+      "error_msg": null,
+      "findings_count": 7
+    },
+    {
+      "item_id": "TC-OCR-02",
+      "session_id": "session_ocr_equipment_03",
+      "query": "Extract the machine serial number and rated voltage from the plate.",
+      "pipeline_type": "ablation_no_cost",
+      "required_agents": [
+        "ocr"
+      ],
+      "selected_agents": [
+        "ocr",
+        "evidence_validation"
+      ],
+      "executed_agents": [
+        "ocr"
+      ],
+      "num_agents": 2,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "latency_ms": 2755.76,
+      "evidence_support": 1.0,
+      "answer_correctness": 1.0,
+      "success": true,
+      "error_msg": null,
+      "findings_count": 7
+    },
+    {
+      "item_id": "TC-OCR-03",
+      "session_id": "session_ocr_equipment_03",
+      "query": "What industrial station number is printed at the bottom of the sign?",
+      "pipeline_type": "ablation_no_cost",
+      "required_agents": [
+        "ocr"
+      ],
+      "selected_agents": [
+        "ocr",
+        "evidence_validation"
+      ],
+      "executed_agents": [
+        "ocr"
+      ],
+      "num_agents": 2,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "latency_ms": 2290.97,
+      "evidence_support": 1.0,
+      "answer_correctness": 1.0,
+      "success": true,
+      "error_msg": null,
+      "findings_count": 7
+    },
+    {
+      "item_id": "TC-OCR-04",
+      "session_id": "session_ocr_equipment_03",
+      "query": "Read the certified engineering safety standard on this machine.",
+      "pipeline_type": "ablation_no_cost",
+      "required_agents": [
+        "ocr"
+      ],
+      "selected_agents": [
+        "ocr",
+        "evidence_validation"
+      ],
+      "executed_agents": [
+        "ocr"
+      ],
+      "num_agents": 2,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "latency_ms": 2768.47,
+      "evidence_support": 1.0,
+      "answer_correctness": 1.0,
+      "success": true,
+      "error_msg": null,
+      "findings_count": 7
+    },
+    {
+      "item_id": "TC-SCN-01",
+      "session_id": "session_factory_overview_04",
+      "query": "Describe the factory floor context and list visible machinery.",
+      "pipeline_type": "ablation_no_cost",
+      "required_agents": [
+        "scene",
+        "object"
+      ],
+      "selected_agents": [
+        "ocr",
+        "evidence_validation"
+      ],
+      "executed_agents": [
+        "ocr"
+      ],
+      "num_agents": 2,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "latency_ms": 5975.45,
+      "evidence_support": 0.0,
+      "answer_correctness": 0.0,
+      "success": true,
+      "error_msg": null,
+      "findings_count": 0
+    },
+    {
+      "item_id": "TC-SCN-02",
+      "session_id": "session_factory_overview_04",
+      "query": "Identify the primary manufacturing machine and its physical enclosure.",
+      "pipeline_type": "ablation_no_cost",
+      "required_agents": [
+        "object"
+      ],
+      "selected_agents": [
+        "object",
+        "scene",
+        "evidence_validation"
+      ],
+      "executed_agents": [
+        "object",
+        "scene"
+      ],
+      "num_agents": 3,
+      "precision": 0.5,
+      "recall": 1.0,
+      "f1": 0.6667,
+      "latency_ms": 441.56,
+      "evidence_support": 1.0,
+      "answer_correctness": 1.0,
+      "success": true,
+      "error_msg": null,
+      "findings_count": 1
+    },
+    {
+      "item_id": "TC-SCN-03",
+      "session_id": "session_factory_overview_04",
+      "query": "Count all visible operators and workstations in this view.",
+      "pipeline_type": "ablation_no_cost",
+      "required_agents": [
+        "object"
+      ],
+      "selected_agents": [
+        "object",
+        "evidence_validation"
+      ],
+      "executed_agents": [
+        "object"
+      ],
+      "num_agents": 2,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "latency_ms": 1754.18,
+      "evidence_support": 1.0,
+      "answer_correctness": 1.0,
+      "success": true,
+      "error_msg": null,
+      "findings_count": 18
+    },
+    {
+      "item_id": "TC-SCN-04",
+      "session_id": "session_factory_overview_04",
+      "query": "Provide an environmental hazard overview of this industrial facility.",
+      "pipeline_type": "ablation_no_cost",
+      "required_agents": [
+        "scene"
+      ],
+      "selected_agents": [
+        "object",
+        "scene",
+        "evidence_validation"
+      ],
+      "executed_agents": [
+        "scene"
+      ],
+      "num_agents": 3,
+      "precision": 0.5,
+      "recall": 1.0,
+      "f1": 0.6667,
+      "latency_ms": 1723.64,
+      "evidence_support": 1.0,
+      "answer_correctness": 1.0,
+      "success": true,
+      "error_msg": null,
+      "findings_count": 1
+    },
+    {
+      "item_id": "TC-HYB-01",
+      "session_id": "session_hybrid_inspection_05",
+      "query": "Detect surface scratches and read the caution label on the machine.",
+      "pipeline_type": "ablation_no_cost",
+      "required_agents": [
+        "defect",
+        "ocr"
+      ],
+      "selected_agents": [
+        "ocr",
+        "evidence_validation"
+      ],
+      "executed_agents": [
+        "ocr"
+      ],
+      "num_agents": 2,
+      "precision": 1.0,
+      "recall": 0.5,
+      "f1": 0.6667,
+      "latency_ms": 2004.55,
+      "evidence_support": 0.5,
+      "answer_correctness": 0.0,
+      "success": true,
+      "error_msg": null,
+      "findings_count": 3
+    },
+    {
+      "item_id": "TC-HYB-02",
+      "session_id": "session_hybrid_inspection_05",
+      "query": "Verify PPE compliance and cite the relevant OSHA head protection standard.",
+      "pipeline_type": "ablation_no_cost",
+      "required_agents": [
+        "ppe",
+        "rag"
+      ],
+      "selected_agents": [
+        "object",
+        "ppe",
+        "evidence_validation",
+        "rag",
+        "recommendation"
+      ],
+      "executed_agents": [
+        "object",
+        "ppe",
+        "recommendation"
+      ],
+      "num_agents": 5,
+      "precision": 0.5,
+      "recall": 1.0,
+      "f1": 0.6667,
+      "latency_ms": 1927.37,
+      "evidence_support": 0.5,
+      "answer_correctness": 0.0,
+      "success": true,
+      "error_msg": null,
+      "findings_count": 33
+    },
+    {
+      "item_id": "TC-HYB-03",
+      "session_id": "session_hybrid_inspection_05",
+      "query": "Classify the surface steel defect and retrieve ASTM A568 tolerance limits.",
+      "pipeline_type": "ablation_no_cost",
+      "required_agents": [
+        "defect",
+        "rag"
+      ],
+      "selected_agents": [
+        "object",
+        "defect",
+        "evidence_validation",
+        "rag",
+        "rca",
+        "recommendation"
+      ],
+      "executed_agents": [
+        "object",
+        "defect",
+        "rca",
+        "recommendation"
+      ],
+      "num_agents": 6,
+      "precision": 0.4,
+      "recall": 1.0,
+      "f1": 0.5714,
+      "latency_ms": 290.29,
+      "evidence_support": 0.5,
+      "answer_correctness": 0.0,
+      "success": true,
+      "error_msg": null,
+      "findings_count": 1
+    },
+    {
+      "item_id": "TC-HYB-04",
+      "session_id": "session_hybrid_inspection_05",
+      "query": "Examine the lathe workstation, extract caution text, and inspect for scratches.",
+      "pipeline_type": "ablation_no_cost",
+      "required_agents": [
+        "defect",
+        "ocr",
+        "scene"
+      ],
+      "selected_agents": [
+        "ocr",
+        "evidence_validation"
+      ],
+      "executed_agents": [
+        "ocr"
+      ],
+      "num_agents": 2,
+      "precision": 1.0,
+      "recall": 0.3333,
+      "f1": 0.5,
+      "latency_ms": 2040.34,
+      "evidence_support": 0.3333,
+      "answer_correctness": 0.0,
+      "success": true,
+      "error_msg": null,
+      "findings_count": 3
+    },
+    {
+      "item_id": "TC-AMB-01",
+      "session_id": "session_ambiguous_edge_06",
+      "query": "What is visible here?",
+      "pipeline_type": "ablation_no_cost",
+      "required_agents": [
+        "object",
+        "scene"
+      ],
+      "selected_agents": [
+        "object",
+        "scene",
+        "evidence_validation"
+      ],
+      "executed_agents": [
+        "object",
+        "scene"
+      ],
+      "num_agents": 3,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "latency_ms": 1749.17,
+      "evidence_support": 1.0,
+      "answer_correctness": 1.0,
+      "success": true,
+      "error_msg": null,
+      "findings_count": 19
+    },
+    {
+      "item_id": "TC-AMB-02",
+      "session_id": "session_ambiguous_edge_06",
+      "query": "Perform general visual inspection.",
+      "pipeline_type": "ablation_no_cost",
+      "required_agents": [
+        "object",
+        "scene"
+      ],
+      "selected_agents": [
+        "object",
+        "scene",
+        "evidence_validation"
+      ],
+      "executed_agents": [
+        "object",
+        "scene"
+      ],
+      "num_agents": 3,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "latency_ms": 777.54,
+      "evidence_support": 1.0,
+      "answer_correctness": 1.0,
+      "success": true,
+      "error_msg": null,
+      "findings_count": 2
+    }
+  ],
+  "ablation_no_rag": [
+    {
+      "item_id": "TC-PPE-01",
+      "session_id": "session_ppe_site_01",
+      "query": "Check whether personnel are wearing hard hats and safety vests.",
+      "pipeline_type": "ablation_no_rag",
+      "required_agents": [
+        "ppe"
+      ],
+      "selected_agents": [
+        "object",
+        "ppe",
+        "evidence_validation",
+        "recommendation"
+      ],
+      "executed_agents": [
+        "object",
+        "ppe",
+        "recommendation"
+      ],
+      "num_agents": 4,
+      "precision": 0.3333,
+      "recall": 1.0,
+      "f1": 0.5,
+      "latency_ms": 1871.19,
+      "evidence_support": 1.0,
+      "answer_correctness": 1.0,
+      "success": true,
+      "error_msg": null,
+      "findings_count": 33
+    },
+    {
+      "item_id": "TC-PPE-02",
+      "session_id": "session_ppe_site_01",
+      "query": "Detect any OSHA head protection violations in this work area.",
+      "pipeline_type": "ablation_no_rag",
+      "required_agents": [
+        "ppe"
+      ],
+      "selected_agents": [
+        "object",
+        "ppe",
+        "evidence_validation",
+        "recommendation"
+      ],
+      "executed_agents": [
+        "object",
+        "ppe",
+        "recommendation"
+      ],
+      "num_agents": 4,
+      "precision": 0.3333,
+      "recall": 1.0,
+      "f1": 0.5,
+      "latency_ms": 2123.53,
+      "evidence_support": 1.0,
+      "answer_correctness": 1.0,
+      "success": true,
+      "error_msg": null,
+      "findings_count": 33
+    },
+    {
+      "item_id": "TC-PPE-03",
+      "session_id": "session_ppe_site_01",
+      "query": "Verify high-visibility vest compliance for workers on site.",
+      "pipeline_type": "ablation_no_rag",
+      "required_agents": [
+        "ppe"
+      ],
+      "selected_agents": [
+        "object",
+        "ppe",
+        "evidence_validation",
+        "recommendation"
+      ],
+      "executed_agents": [
+        "object",
+        "ppe",
+        "recommendation"
+      ],
+      "num_agents": 4,
+      "precision": 0.3333,
+      "recall": 1.0,
+      "f1": 0.5,
+      "latency_ms": 1926.09,
+      "evidence_support": 1.0,
+      "answer_correctness": 1.0,
+      "success": true,
+      "error_msg": null,
+      "findings_count": 33
+    },
+    {
+      "item_id": "TC-PPE-04",
+      "session_id": "session_ppe_site_01",
+      "query": "Count the number of individuals and inspect their safety gear.",
+      "pipeline_type": "ablation_no_rag",
+      "required_agents": [
+        "ppe",
+        "object"
+      ],
+      "selected_agents": [
+        "object",
+        "evidence_validation"
+      ],
+      "executed_agents": [
+        "object"
+      ],
+      "num_agents": 2,
+      "precision": 1.0,
+      "recall": 0.5,
+      "f1": 0.6667,
+      "latency_ms": 1884.68,
+      "evidence_support": 0.5,
+      "answer_correctness": 0.0,
+      "success": true,
+      "error_msg": null,
+      "findings_count": 18
+    },
+    {
+      "item_id": "TC-PPE-05",
+      "session_id": "session_ppe_site_01",
+      "query": "Is the worker properly protected against impact hazards?",
+      "pipeline_type": "ablation_no_rag",
+      "required_agents": [
+        "ppe"
+      ],
+      "selected_agents": [
+        "object",
+        "scene",
+        "evidence_validation"
+      ],
+      "executed_agents": [
+        "object",
+        "scene"
+      ],
+      "num_agents": 3,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "latency_ms": 1931.61,
+      "evidence_support": 0.0,
+      "answer_correctness": 0.0,
+      "success": true,
+      "error_msg": null,
+      "findings_count": 19
+    },
+    {
+      "item_id": "TC-DEF-01",
+      "session_id": "session_steel_mill_02",
+      "query": "Inspect this cold-rolled steel surface for crazing micro-cracks.",
+      "pipeline_type": "ablation_no_rag",
+      "required_agents": [
+        "defect"
+      ],
+      "selected_agents": [
+        "object",
+        "defect",
+        "evidence_validation",
+        "rca",
+        "recommendation"
+      ],
+      "executed_agents": [
+        "object",
+        "defect",
+        "rca",
+        "recommendation"
+      ],
+      "num_agents": 5,
+      "precision": 0.25,
+      "recall": 1.0,
+      "f1": 0.4,
+      "latency_ms": 303.76,
+      "evidence_support": 1.0,
+      "answer_correctness": 1.0,
+      "success": true,
+      "error_msg": null,
+      "findings_count": 1
+    },
+    {
+      "item_id": "TC-DEF-02",
+      "session_id": "session_steel_mill_02",
+      "query": "Identify any surface scratches or mechanical gouges on the sheet.",
+      "pipeline_type": "ablation_no_rag",
+      "required_agents": [
+        "defect"
+      ],
+      "selected_agents": [
+        "object",
+        "defect",
+        "evidence_validation",
+        "rca",
+        "recommendation"
+      ],
+      "executed_agents": [
+        "object",
+        "defect",
+        "rca",
+        "recommendation"
+      ],
+      "num_agents": 5,
+      "precision": 0.25,
+      "recall": 1.0,
+      "f1": 0.4,
+      "latency_ms": 263.43,
+      "evidence_support": 1.0,
+      "answer_correctness": 1.0,
+      "success": true,
+      "error_msg": null,
+      "findings_count": 1
+    },
+    {
+      "item_id": "TC-DEF-03",
+      "session_id": "session_steel_mill_02",
+      "query": "Check the metal surface for localized corrosion pitting or cavities.",
+      "pipeline_type": "ablation_no_rag",
+      "required_agents": [
+        "defect"
+      ],
+      "selected_agents": [
+        "object",
+        "scene",
+        "evidence_validation"
+      ],
+      "executed_agents": [
+        "object",
+        "scene"
+      ],
+      "num_agents": 3,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "latency_ms": 247.71,
+      "evidence_support": 0.0,
+      "answer_correctness": 0.0,
+      "success": true,
+      "error_msg": null,
+      "findings_count": 1
+    },
+    {
+      "item_id": "TC-DEF-04",
+      "session_id": "session_steel_mill_02",
+      "query": "Detect foreign non-metallic inclusions embedded in the steel plate.",
+      "pipeline_type": "ablation_no_rag",
+      "required_agents": [
+        "defect"
+      ],
+      "selected_agents": [
+        "object",
+        "defect",
+        "evidence_validation",
+        "rca",
+        "recommendation"
+      ],
+      "executed_agents": [
+        "object",
+        "defect",
+        "rca",
+        "recommendation"
+      ],
+      "num_agents": 5,
+      "precision": 0.25,
+      "recall": 1.0,
+      "f1": 0.4,
+      "latency_ms": 274.41,
+      "evidence_support": 1.0,
+      "answer_correctness": 1.0,
+      "success": true,
+      "error_msg": null,
+      "findings_count": 1
+    },
+    {
+      "item_id": "TC-DEF-05",
+      "session_id": "session_steel_mill_02",
+      "query": "Diagnose structural patch irregularities on the metal surface.",
+      "pipeline_type": "ablation_no_rag",
+      "required_agents": [
+        "defect"
+      ],
+      "selected_agents": [
+        "object",
+        "evidence_validation",
+        "rca",
+        "recommendation"
+      ],
+      "executed_agents": [
+        "object",
+        "rag",
+        "rca",
+        "recommendation"
+      ],
+      "num_agents": 4,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "latency_ms": 250.44,
+      "evidence_support": 0.0,
+      "answer_correctness": 0.0,
+      "success": true,
+      "error_msg": null,
+      "findings_count": 0
+    },
+    {
+      "item_id": "TC-OCR-01",
+      "session_id": "session_ocr_equipment_03",
+      "query": "Read the warning sign text and regulatory compliance notice.",
+      "pipeline_type": "ablation_no_rag",
+      "required_agents": [
+        "ocr"
+      ],
+      "selected_agents": [
+        "ocr",
+        "evidence_validation"
+      ],
+      "executed_agents": [
+        "ocr"
+      ],
+      "num_agents": 2,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "latency_ms": 1965.18,
+      "evidence_support": 1.0,
+      "answer_correctness": 1.0,
+      "success": true,
+      "error_msg": null,
+      "findings_count": 7
+    },
+    {
+      "item_id": "TC-OCR-02",
+      "session_id": "session_ocr_equipment_03",
+      "query": "Extract the machine serial number and rated voltage from the plate.",
+      "pipeline_type": "ablation_no_rag",
+      "required_agents": [
+        "ocr"
+      ],
+      "selected_agents": [
+        "ocr",
+        "evidence_validation"
+      ],
+      "executed_agents": [
+        "ocr"
+      ],
+      "num_agents": 2,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "latency_ms": 2234.57,
+      "evidence_support": 1.0,
+      "answer_correctness": 1.0,
+      "success": true,
+      "error_msg": null,
+      "findings_count": 7
+    },
+    {
+      "item_id": "TC-OCR-03",
+      "session_id": "session_ocr_equipment_03",
+      "query": "What industrial station number is printed at the bottom of the sign?",
+      "pipeline_type": "ablation_no_rag",
+      "required_agents": [
+        "ocr"
+      ],
+      "selected_agents": [
+        "ocr",
+        "evidence_validation"
+      ],
+      "executed_agents": [
+        "ocr"
+      ],
+      "num_agents": 2,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "latency_ms": 2632.45,
+      "evidence_support": 1.0,
+      "answer_correctness": 1.0,
+      "success": true,
+      "error_msg": null,
+      "findings_count": 7
+    },
+    {
+      "item_id": "TC-OCR-04",
+      "session_id": "session_ocr_equipment_03",
+      "query": "Read the certified engineering safety standard on this machine.",
+      "pipeline_type": "ablation_no_rag",
+      "required_agents": [
+        "ocr"
+      ],
+      "selected_agents": [
+        "ocr",
+        "evidence_validation"
+      ],
+      "executed_agents": [
+        "ocr"
+      ],
+      "num_agents": 2,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "latency_ms": 2559.96,
+      "evidence_support": 1.0,
+      "answer_correctness": 1.0,
+      "success": true,
+      "error_msg": null,
+      "findings_count": 7
+    },
+    {
+      "item_id": "TC-SCN-01",
+      "session_id": "session_factory_overview_04",
+      "query": "Describe the factory floor context and list visible machinery.",
+      "pipeline_type": "ablation_no_rag",
+      "required_agents": [
+        "scene",
+        "object"
+      ],
+      "selected_agents": [
+        "ocr",
+        "evidence_validation"
+      ],
+      "executed_agents": [
+        "ocr"
+      ],
+      "num_agents": 2,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "latency_ms": 5939.3,
+      "evidence_support": 0.0,
+      "answer_correctness": 0.0,
+      "success": true,
+      "error_msg": null,
+      "findings_count": 0
+    },
+    {
+      "item_id": "TC-SCN-02",
+      "session_id": "session_factory_overview_04",
+      "query": "Identify the primary manufacturing machine and its physical enclosure.",
+      "pipeline_type": "ablation_no_rag",
+      "required_agents": [
+        "object"
+      ],
+      "selected_agents": [
+        "object",
+        "scene",
+        "evidence_validation"
+      ],
+      "executed_agents": [
+        "object",
+        "scene"
+      ],
+      "num_agents": 3,
+      "precision": 0.5,
+      "recall": 1.0,
+      "f1": 0.6667,
+      "latency_ms": 565.29,
+      "evidence_support": 1.0,
+      "answer_correctness": 1.0,
+      "success": true,
+      "error_msg": null,
+      "findings_count": 1
+    },
+    {
+      "item_id": "TC-SCN-03",
+      "session_id": "session_factory_overview_04",
+      "query": "Count all visible operators and workstations in this view.",
+      "pipeline_type": "ablation_no_rag",
+      "required_agents": [
+        "object"
+      ],
+      "selected_agents": [
+        "object",
+        "evidence_validation"
+      ],
+      "executed_agents": [
+        "object"
+      ],
+      "num_agents": 2,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "latency_ms": 1995.24,
+      "evidence_support": 1.0,
+      "answer_correctness": 1.0,
+      "success": true,
+      "error_msg": null,
+      "findings_count": 18
+    },
+    {
+      "item_id": "TC-SCN-04",
+      "session_id": "session_factory_overview_04",
+      "query": "Provide an environmental hazard overview of this industrial facility.",
+      "pipeline_type": "ablation_no_rag",
+      "required_agents": [
+        "scene"
+      ],
+      "selected_agents": [
+        "scene",
+        "evidence_validation"
+      ],
+      "executed_agents": [
+        "scene"
+      ],
+      "num_agents": 2,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "latency_ms": 1868.26,
+      "evidence_support": 1.0,
+      "answer_correctness": 1.0,
+      "success": true,
+      "error_msg": null,
+      "findings_count": 1
+    },
+    {
+      "item_id": "TC-HYB-01",
+      "session_id": "session_hybrid_inspection_05",
+      "query": "Detect surface scratches and read the caution label on the machine.",
+      "pipeline_type": "ablation_no_rag",
+      "required_agents": [
+        "defect",
+        "ocr"
+      ],
+      "selected_agents": [
+        "ocr",
+        "evidence_validation"
+      ],
+      "executed_agents": [
+        "ocr"
+      ],
+      "num_agents": 2,
+      "precision": 1.0,
+      "recall": 0.5,
+      "f1": 0.6667,
+      "latency_ms": 2123.85,
+      "evidence_support": 0.5,
+      "answer_correctness": 0.0,
+      "success": true,
+      "error_msg": null,
+      "findings_count": 3
+    },
+    {
+      "item_id": "TC-HYB-02",
+      "session_id": "session_hybrid_inspection_05",
+      "query": "Verify PPE compliance and cite the relevant OSHA head protection standard.",
+      "pipeline_type": "ablation_no_rag",
+      "required_agents": [
+        "ppe",
+        "rag"
+      ],
+      "selected_agents": [
+        "object",
+        "ppe",
+        "evidence_validation",
+        "recommendation"
+      ],
+      "executed_agents": [
+        "object",
+        "ppe",
+        "recommendation"
+      ],
+      "num_agents": 4,
+      "precision": 0.3333,
+      "recall": 0.5,
+      "f1": 0.4,
+      "latency_ms": 1957.52,
+      "evidence_support": 0.5,
+      "answer_correctness": 0.0,
+      "success": true,
+      "error_msg": null,
+      "findings_count": 33
+    },
+    {
+      "item_id": "TC-HYB-03",
+      "session_id": "session_hybrid_inspection_05",
+      "query": "Classify the surface steel defect and retrieve ASTM A568 tolerance limits.",
+      "pipeline_type": "ablation_no_rag",
+      "required_agents": [
+        "defect",
+        "rag"
+      ],
+      "selected_agents": [
+        "object",
+        "defect",
+        "evidence_validation",
+        "rca",
+        "recommendation"
+      ],
+      "executed_agents": [
+        "object",
+        "defect",
+        "rca",
+        "recommendation"
+      ],
+      "num_agents": 5,
+      "precision": 0.25,
+      "recall": 0.5,
+      "f1": 0.3333,
+      "latency_ms": 292.2,
+      "evidence_support": 0.5,
+      "answer_correctness": 0.0,
+      "success": true,
+      "error_msg": null,
+      "findings_count": 1
+    },
+    {
+      "item_id": "TC-HYB-04",
+      "session_id": "session_hybrid_inspection_05",
+      "query": "Examine the lathe workstation, extract caution text, and inspect for scratches.",
+      "pipeline_type": "ablation_no_rag",
+      "required_agents": [
+        "defect",
+        "ocr",
+        "scene"
+      ],
+      "selected_agents": [
+        "ocr",
+        "evidence_validation"
+      ],
+      "executed_agents": [
+        "ocr"
+      ],
+      "num_agents": 2,
+      "precision": 1.0,
+      "recall": 0.3333,
+      "f1": 0.5,
+      "latency_ms": 2447.84,
+      "evidence_support": 0.3333,
+      "answer_correctness": 0.0,
+      "success": true,
+      "error_msg": null,
+      "findings_count": 3
+    },
+    {
+      "item_id": "TC-AMB-01",
+      "session_id": "session_ambiguous_edge_06",
+      "query": "What is visible here?",
+      "pipeline_type": "ablation_no_rag",
+      "required_agents": [
+        "object",
+        "scene"
+      ],
+      "selected_agents": [
+        "object",
+        "scene",
+        "evidence_validation"
+      ],
+      "executed_agents": [
+        "object",
+        "scene"
+      ],
+      "num_agents": 3,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "latency_ms": 1851.56,
+      "evidence_support": 1.0,
+      "answer_correctness": 1.0,
+      "success": true,
+      "error_msg": null,
+      "findings_count": 19
+    },
+    {
+      "item_id": "TC-AMB-02",
+      "session_id": "session_ambiguous_edge_06",
+      "query": "Perform general visual inspection.",
+      "pipeline_type": "ablation_no_rag",
+      "required_agents": [
+        "object",
+        "scene"
+      ],
+      "selected_agents": [
+        "object",
+        "scene",
+        "evidence_validation"
+      ],
+      "executed_agents": [
+        "object",
+        "scene"
+      ],
+      "num_agents": 3,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "latency_ms": 801.91,
+      "evidence_support": 1.0,
+      "answer_correctness": 1.0,
+      "success": true,
+      "error_msg": null,
+      "findings_count": 2
+    }
+  ],
+  "ablation_no_evidence_aggregation": [
+    {
+      "item_id": "TC-PPE-01",
+      "session_id": "session_ppe_site_01",
+      "query": "Check whether personnel are wearing hard hats and safety vests.",
+      "pipeline_type": "ablation_no_evidence_aggregation",
+      "required_agents": [
+        "ppe"
+      ],
+      "selected_agents": [
+        "object",
+        "ppe",
+        "recommendation"
+      ],
+      "executed_agents": [
+        "object",
+        "ppe",
+        "recommendation"
+      ],
+      "num_agents": 3,
+      "precision": 0.3333,
+      "recall": 1.0,
+      "f1": 0.5,
+      "latency_ms": 2436.8,
+      "evidence_support": 1.0,
+      "answer_correctness": 1.0,
+      "success": true,
+      "error_msg": null,
+      "findings_count": 33
+    },
+    {
+      "item_id": "TC-PPE-02",
+      "session_id": "session_ppe_site_01",
+      "query": "Detect any OSHA head protection violations in this work area.",
+      "pipeline_type": "ablation_no_evidence_aggregation",
+      "required_agents": [
+        "ppe"
+      ],
+      "selected_agents": [
+        "object",
+        "ppe",
+        "recommendation"
+      ],
+      "executed_agents": [
+        "object",
+        "ppe",
+        "recommendation"
+      ],
+      "num_agents": 3,
+      "precision": 0.3333,
+      "recall": 1.0,
+      "f1": 0.5,
+      "latency_ms": 1895.72,
+      "evidence_support": 1.0,
+      "answer_correctness": 1.0,
+      "success": true,
+      "error_msg": null,
+      "findings_count": 33
+    },
+    {
+      "item_id": "TC-PPE-03",
+      "session_id": "session_ppe_site_01",
+      "query": "Verify high-visibility vest compliance for workers on site.",
+      "pipeline_type": "ablation_no_evidence_aggregation",
+      "required_agents": [
+        "ppe"
+      ],
+      "selected_agents": [
+        "object",
+        "ppe",
+        "recommendation"
+      ],
+      "executed_agents": [
+        "object",
+        "ppe",
+        "recommendation"
+      ],
+      "num_agents": 3,
+      "precision": 0.3333,
+      "recall": 1.0,
+      "f1": 0.5,
+      "latency_ms": 1899.54,
+      "evidence_support": 1.0,
+      "answer_correctness": 1.0,
+      "success": true,
+      "error_msg": null,
+      "findings_count": 33
+    },
+    {
+      "item_id": "TC-PPE-04",
+      "session_id": "session_ppe_site_01",
+      "query": "Count the number of individuals and inspect their safety gear.",
+      "pipeline_type": "ablation_no_evidence_aggregation",
+      "required_agents": [
+        "ppe",
+        "object"
+      ],
+      "selected_agents": [
+        "object"
+      ],
+      "executed_agents": [
+        "object"
+      ],
+      "num_agents": 1,
+      "precision": 1.0,
+      "recall": 0.5,
+      "f1": 0.6667,
+      "latency_ms": 1979.05,
+      "evidence_support": 0.5,
+      "answer_correctness": 0.0,
+      "success": true,
+      "error_msg": null,
+      "findings_count": 18
+    },
+    {
+      "item_id": "TC-PPE-05",
+      "session_id": "session_ppe_site_01",
+      "query": "Is the worker properly protected against impact hazards?",
+      "pipeline_type": "ablation_no_evidence_aggregation",
+      "required_agents": [
+        "ppe"
+      ],
+      "selected_agents": [
+        "object",
+        "scene"
+      ],
+      "executed_agents": [
+        "object",
+        "scene"
+      ],
+      "num_agents": 2,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "latency_ms": 1789.13,
+      "evidence_support": 0.0,
+      "answer_correctness": 0.0,
+      "success": true,
+      "error_msg": null,
+      "findings_count": 19
+    },
+    {
+      "item_id": "TC-DEF-01",
+      "session_id": "session_steel_mill_02",
+      "query": "Inspect this cold-rolled steel surface for crazing micro-cracks.",
+      "pipeline_type": "ablation_no_evidence_aggregation",
+      "required_agents": [
+        "defect"
+      ],
+      "selected_agents": [
+        "object",
+        "defect",
+        "rca",
+        "recommendation"
+      ],
+      "executed_agents": [
+        "object",
+        "defect",
+        "rca",
+        "recommendation"
+      ],
+      "num_agents": 4,
+      "precision": 0.25,
+      "recall": 1.0,
+      "f1": 0.4,
+      "latency_ms": 282.27,
+      "evidence_support": 1.0,
+      "answer_correctness": 1.0,
+      "success": true,
+      "error_msg": null,
+      "findings_count": 1
+    },
+    {
+      "item_id": "TC-DEF-02",
+      "session_id": "session_steel_mill_02",
+      "query": "Identify any surface scratches or mechanical gouges on the sheet.",
+      "pipeline_type": "ablation_no_evidence_aggregation",
+      "required_agents": [
+        "defect"
+      ],
+      "selected_agents": [
+        "object",
+        "defect",
+        "rca",
+        "recommendation"
+      ],
+      "executed_agents": [
+        "object",
+        "defect",
+        "rca",
+        "recommendation"
+      ],
+      "num_agents": 4,
+      "precision": 0.25,
+      "recall": 1.0,
+      "f1": 0.4,
+      "latency_ms": 276.77,
+      "evidence_support": 1.0,
+      "answer_correctness": 1.0,
+      "success": true,
+      "error_msg": null,
+      "findings_count": 1
+    },
+    {
+      "item_id": "TC-DEF-03",
+      "session_id": "session_steel_mill_02",
+      "query": "Check the metal surface for localized corrosion pitting or cavities.",
+      "pipeline_type": "ablation_no_evidence_aggregation",
+      "required_agents": [
+        "defect"
+      ],
+      "selected_agents": [
+        "object",
+        "scene"
+      ],
+      "executed_agents": [
+        "object",
+        "scene"
+      ],
+      "num_agents": 2,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "latency_ms": 249.77,
+      "evidence_support": 0.0,
+      "answer_correctness": 0.0,
+      "success": true,
+      "error_msg": null,
+      "findings_count": 1
+    },
+    {
+      "item_id": "TC-DEF-04",
+      "session_id": "session_steel_mill_02",
+      "query": "Detect foreign non-metallic inclusions embedded in the steel plate.",
+      "pipeline_type": "ablation_no_evidence_aggregation",
+      "required_agents": [
+        "defect"
+      ],
+      "selected_agents": [
+        "object",
+        "defect",
+        "rca",
+        "recommendation"
+      ],
+      "executed_agents": [
+        "object",
+        "defect",
+        "rca",
+        "recommendation"
+      ],
+      "num_agents": 4,
+      "precision": 0.25,
+      "recall": 1.0,
+      "f1": 0.4,
+      "latency_ms": 267.05,
+      "evidence_support": 1.0,
+      "answer_correctness": 1.0,
+      "success": true,
+      "error_msg": null,
+      "findings_count": 1
+    },
+    {
+      "item_id": "TC-DEF-05",
+      "session_id": "session_steel_mill_02",
+      "query": "Diagnose structural patch irregularities on the metal surface.",
+      "pipeline_type": "ablation_no_evidence_aggregation",
+      "required_agents": [
+        "defect"
+      ],
+      "selected_agents": [
+        "object",
+        "rag",
+        "rca",
+        "recommendation"
+      ],
+      "executed_agents": [
+        "object",
+        "rag",
+        "rca",
+        "recommendation"
+      ],
+      "num_agents": 4,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "latency_ms": 255.61,
+      "evidence_support": 0.0,
+      "answer_correctness": 0.0,
+      "success": true,
+      "error_msg": null,
+      "findings_count": 0
+    },
+    {
+      "item_id": "TC-OCR-01",
+      "session_id": "session_ocr_equipment_03",
+      "query": "Read the warning sign text and regulatory compliance notice.",
+      "pipeline_type": "ablation_no_evidence_aggregation",
+      "required_agents": [
+        "ocr"
+      ],
+      "selected_agents": [
+        "ocr"
+      ],
+      "executed_agents": [
+        "ocr"
+      ],
+      "num_agents": 1,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "latency_ms": 2317.39,
+      "evidence_support": 1.0,
+      "answer_correctness": 1.0,
+      "success": true,
+      "error_msg": null,
+      "findings_count": 7
+    },
+    {
+      "item_id": "TC-OCR-02",
+      "session_id": "session_ocr_equipment_03",
+      "query": "Extract the machine serial number and rated voltage from the plate.",
+      "pipeline_type": "ablation_no_evidence_aggregation",
+      "required_agents": [
+        "ocr"
+      ],
+      "selected_agents": [
+        "ocr"
+      ],
+      "executed_agents": [
+        "ocr"
+      ],
+      "num_agents": 1,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "latency_ms": 2092.37,
+      "evidence_support": 1.0,
+      "answer_correctness": 1.0,
+      "success": true,
+      "error_msg": null,
+      "findings_count": 7
+    },
+    {
+      "item_id": "TC-OCR-03",
+      "session_id": "session_ocr_equipment_03",
+      "query": "What industrial station number is printed at the bottom of the sign?",
+      "pipeline_type": "ablation_no_evidence_aggregation",
+      "required_agents": [
+        "ocr"
+      ],
+      "selected_agents": [
+        "ocr"
+      ],
+      "executed_agents": [
+        "ocr"
+      ],
+      "num_agents": 1,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "latency_ms": 2055.95,
+      "evidence_support": 1.0,
+      "answer_correctness": 1.0,
+      "success": true,
+      "error_msg": null,
+      "findings_count": 7
+    },
+    {
+      "item_id": "TC-OCR-04",
+      "session_id": "session_ocr_equipment_03",
+      "query": "Read the certified engineering safety standard on this machine.",
+      "pipeline_type": "ablation_no_evidence_aggregation",
+      "required_agents": [
+        "ocr"
+      ],
+      "selected_agents": [
+        "ocr"
+      ],
+      "executed_agents": [
+        "ocr"
+      ],
+      "num_agents": 1,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "latency_ms": 2157.27,
+      "evidence_support": 1.0,
+      "answer_correctness": 1.0,
+      "success": true,
+      "error_msg": null,
+      "findings_count": 7
+    },
+    {
+      "item_id": "TC-SCN-01",
+      "session_id": "session_factory_overview_04",
+      "query": "Describe the factory floor context and list visible machinery.",
+      "pipeline_type": "ablation_no_evidence_aggregation",
+      "required_agents": [
+        "scene",
+        "object"
+      ],
+      "selected_agents": [
+        "ocr"
+      ],
+      "executed_agents": [
+        "ocr"
+      ],
+      "num_agents": 1,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "latency_ms": 5591.78,
+      "evidence_support": 0.0,
+      "answer_correctness": 0.0,
+      "success": true,
+      "error_msg": null,
+      "findings_count": 0
+    },
+    {
+      "item_id": "TC-SCN-02",
+      "session_id": "session_factory_overview_04",
+      "query": "Identify the primary manufacturing machine and its physical enclosure.",
+      "pipeline_type": "ablation_no_evidence_aggregation",
+      "required_agents": [
+        "object"
+      ],
+      "selected_agents": [
+        "object",
+        "scene"
+      ],
+      "executed_agents": [
+        "object",
+        "scene"
+      ],
+      "num_agents": 2,
+      "precision": 0.5,
+      "recall": 1.0,
+      "f1": 0.6667,
+      "latency_ms": 434.37,
+      "evidence_support": 1.0,
+      "answer_correctness": 1.0,
+      "success": true,
+      "error_msg": null,
+      "findings_count": 1
+    },
+    {
+      "item_id": "TC-SCN-03",
+      "session_id": "session_factory_overview_04",
+      "query": "Count all visible operators and workstations in this view.",
+      "pipeline_type": "ablation_no_evidence_aggregation",
+      "required_agents": [
+        "object"
+      ],
+      "selected_agents": [
+        "object"
+      ],
+      "executed_agents": [
+        "object"
+      ],
+      "num_agents": 1,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "latency_ms": 1844.47,
+      "evidence_support": 1.0,
+      "answer_correctness": 1.0,
+      "success": true,
+      "error_msg": null,
+      "findings_count": 18
+    },
+    {
+      "item_id": "TC-SCN-04",
+      "session_id": "session_factory_overview_04",
+      "query": "Provide an environmental hazard overview of this industrial facility.",
+      "pipeline_type": "ablation_no_evidence_aggregation",
+      "required_agents": [
+        "scene"
+      ],
+      "selected_agents": [
+        "scene"
+      ],
+      "executed_agents": [
+        "scene"
+      ],
+      "num_agents": 1,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "latency_ms": 1941.83,
+      "evidence_support": 1.0,
+      "answer_correctness": 1.0,
+      "success": true,
+      "error_msg": null,
+      "findings_count": 1
+    },
+    {
+      "item_id": "TC-HYB-01",
+      "session_id": "session_hybrid_inspection_05",
+      "query": "Detect surface scratches and read the caution label on the machine.",
+      "pipeline_type": "ablation_no_evidence_aggregation",
+      "required_agents": [
+        "defect",
+        "ocr"
+      ],
+      "selected_agents": [
+        "ocr"
+      ],
+      "executed_agents": [
+        "ocr"
+      ],
+      "num_agents": 1,
+      "precision": 1.0,
+      "recall": 0.5,
+      "f1": 0.6667,
+      "latency_ms": 1880.3,
+      "evidence_support": 0.5,
+      "answer_correctness": 0.0,
+      "success": true,
+      "error_msg": null,
+      "findings_count": 3
+    },
+    {
+      "item_id": "TC-HYB-02",
+      "session_id": "session_hybrid_inspection_05",
+      "query": "Verify PPE compliance and cite the relevant OSHA head protection standard.",
+      "pipeline_type": "ablation_no_evidence_aggregation",
+      "required_agents": [
+        "ppe",
+        "rag"
+      ],
+      "selected_agents": [
+        "object",
+        "ppe",
+        "recommendation"
+      ],
+      "executed_agents": [
+        "object",
+        "ppe",
+        "recommendation"
+      ],
+      "num_agents": 3,
+      "precision": 0.3333,
+      "recall": 0.5,
+      "f1": 0.4,
+      "latency_ms": 1879.53,
+      "evidence_support": 0.5,
+      "answer_correctness": 0.0,
+      "success": true,
+      "error_msg": null,
+      "findings_count": 33
+    },
+    {
+      "item_id": "TC-HYB-03",
+      "session_id": "session_hybrid_inspection_05",
+      "query": "Classify the surface steel defect and retrieve ASTM A568 tolerance limits.",
+      "pipeline_type": "ablation_no_evidence_aggregation",
+      "required_agents": [
+        "defect",
+        "rag"
+      ],
+      "selected_agents": [
+        "object",
+        "defect",
+        "rca",
+        "recommendation"
+      ],
+      "executed_agents": [
+        "object",
+        "defect",
+        "rca",
+        "recommendation"
+      ],
+      "num_agents": 4,
+      "precision": 0.25,
+      "recall": 0.5,
+      "f1": 0.3333,
+      "latency_ms": 288.91,
+      "evidence_support": 0.5,
+      "answer_correctness": 0.0,
+      "success": true,
+      "error_msg": null,
+      "findings_count": 1
+    },
+    {
+      "item_id": "TC-HYB-04",
+      "session_id": "session_hybrid_inspection_05",
+      "query": "Examine the lathe workstation, extract caution text, and inspect for scratches.",
+      "pipeline_type": "ablation_no_evidence_aggregation",
+      "required_agents": [
+        "defect",
+        "ocr",
+        "scene"
+      ],
+      "selected_agents": [
+        "ocr"
+      ],
+      "executed_agents": [
+        "ocr"
+      ],
+      "num_agents": 1,
+      "precision": 1.0,
+      "recall": 0.3333,
+      "f1": 0.5,
+      "latency_ms": 2146.43,
+      "evidence_support": 0.3333,
+      "answer_correctness": 0.0,
+      "success": true,
+      "error_msg": null,
+      "findings_count": 3
+    },
+    {
+      "item_id": "TC-AMB-01",
+      "session_id": "session_ambiguous_edge_06",
+      "query": "What is visible here?",
+      "pipeline_type": "ablation_no_evidence_aggregation",
+      "required_agents": [
+        "object",
+        "scene"
+      ],
+      "selected_agents": [
+        "object",
+        "scene"
+      ],
+      "executed_agents": [
+        "object",
+        "scene"
+      ],
+      "num_agents": 2,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "latency_ms": 1850.8,
+      "evidence_support": 1.0,
+      "answer_correctness": 1.0,
+      "success": true,
+      "error_msg": null,
+      "findings_count": 19
+    },
+    {
+      "item_id": "TC-AMB-02",
+      "session_id": "session_ambiguous_edge_06",
+      "query": "Perform general visual inspection.",
+      "pipeline_type": "ablation_no_evidence_aggregation",
+      "required_agents": [
+        "object",
+        "scene"
+      ],
+      "selected_agents": [
+        "object",
+        "scene"
+      ],
+      "executed_agents": [
+        "object",
+        "scene"
+      ],
+      "num_agents": 2,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "latency_ms": 812.64,
+      "evidence_support": 1.0,
+      "answer_correctness": 1.0,
+      "success": true,
+      "error_msg": null,
+      "findings_count": 2
+    }
+  ],
+  "ablation_no_fallback": [
+    {
+      "item_id": "TC-PPE-01",
+      "session_id": "session_ppe_site_01",
+      "query": "Check whether personnel are wearing hard hats and safety vests.",
+      "pipeline_type": "ablation_no_fallback",
+      "required_agents": [
+        "ppe"
+      ],
+      "selected_agents": [
+        "object",
+        "ppe",
+        "evidence_validation",
+        "recommendation"
+      ],
+      "executed_agents": [
+        "object",
+        "ppe",
+        "recommendation"
+      ],
+      "num_agents": 4,
+      "precision": 0.3333,
+      "recall": 1.0,
+      "f1": 0.5,
+      "latency_ms": 2080.8,
+      "evidence_support": 1.0,
+      "answer_correctness": 1.0,
+      "success": true,
+      "error_msg": null,
+      "findings_count": 33
+    },
+    {
+      "item_id": "TC-PPE-02",
+      "session_id": "session_ppe_site_01",
+      "query": "Detect any OSHA head protection violations in this work area.",
+      "pipeline_type": "ablation_no_fallback",
+      "required_agents": [
+        "ppe"
+      ],
+      "selected_agents": [
+        "object",
+        "ppe",
+        "evidence_validation",
+        "recommendation"
+      ],
+      "executed_agents": [
+        "object",
+        "ppe",
+        "recommendation"
+      ],
+      "num_agents": 4,
+      "precision": 0.3333,
+      "recall": 1.0,
+      "f1": 0.5,
+      "latency_ms": 1905.13,
+      "evidence_support": 1.0,
+      "answer_correctness": 1.0,
+      "success": true,
+      "error_msg": null,
+      "findings_count": 33
+    },
+    {
+      "item_id": "TC-PPE-03",
+      "session_id": "session_ppe_site_01",
+      "query": "Verify high-visibility vest compliance for workers on site.",
+      "pipeline_type": "ablation_no_fallback",
+      "required_agents": [
+        "ppe"
+      ],
+      "selected_agents": [
+        "object",
+        "ppe",
+        "evidence_validation",
+        "recommendation"
+      ],
+      "executed_agents": [
+        "object",
+        "ppe",
+        "recommendation"
+      ],
+      "num_agents": 4,
+      "precision": 0.3333,
+      "recall": 1.0,
+      "f1": 0.5,
+      "latency_ms": 1999.13,
+      "evidence_support": 1.0,
+      "answer_correctness": 1.0,
+      "success": true,
+      "error_msg": null,
+      "findings_count": 33
+    },
+    {
+      "item_id": "TC-PPE-04",
+      "session_id": "session_ppe_site_01",
+      "query": "Count the number of individuals and inspect their safety gear.",
+      "pipeline_type": "ablation_no_fallback",
+      "required_agents": [
+        "ppe",
+        "object"
+      ],
+      "selected_agents": [
+        "object",
+        "evidence_validation"
+      ],
+      "executed_agents": [
+        "object"
+      ],
+      "num_agents": 2,
+      "precision": 1.0,
+      "recall": 0.5,
+      "f1": 0.6667,
+      "latency_ms": 2095.83,
+      "evidence_support": 0.5,
+      "answer_correctness": 0.0,
+      "success": true,
+      "error_msg": null,
+      "findings_count": 18
+    },
+    {
+      "item_id": "TC-PPE-05",
+      "session_id": "session_ppe_site_01",
+      "query": "Is the worker properly protected against impact hazards?",
+      "pipeline_type": "ablation_no_fallback",
+      "required_agents": [
+        "ppe"
+      ],
+      "selected_agents": [
+        "object",
+        "scene",
+        "evidence_validation"
+      ],
+      "executed_agents": [
+        "object",
+        "scene"
+      ],
+      "num_agents": 3,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "latency_ms": 1900.09,
+      "evidence_support": 0.0,
+      "answer_correctness": 0.0,
+      "success": true,
+      "error_msg": null,
+      "findings_count": 19
+    },
+    {
+      "item_id": "TC-DEF-01",
+      "session_id": "session_steel_mill_02",
+      "query": "Inspect this cold-rolled steel surface for crazing micro-cracks.",
+      "pipeline_type": "ablation_no_fallback",
+      "required_agents": [
+        "defect"
+      ],
+      "selected_agents": [
+        "object",
+        "defect",
+        "evidence_validation",
+        "rca",
+        "recommendation"
+      ],
+      "executed_agents": [
+        "object",
+        "defect",
+        "rca",
+        "recommendation"
+      ],
+      "num_agents": 5,
+      "precision": 0.25,
+      "recall": 1.0,
+      "f1": 0.4,
+      "latency_ms": 344.99,
+      "evidence_support": 1.0,
+      "answer_correctness": 1.0,
+      "success": true,
+      "error_msg": null,
+      "findings_count": 1
+    },
+    {
+      "item_id": "TC-DEF-02",
+      "session_id": "session_steel_mill_02",
+      "query": "Identify any surface scratches or mechanical gouges on the sheet.",
+      "pipeline_type": "ablation_no_fallback",
+      "required_agents": [
+        "defect"
+      ],
+      "selected_agents": [
+        "object",
+        "defect",
+        "evidence_validation",
+        "rca",
+        "recommendation"
+      ],
+      "executed_agents": [
+        "object",
+        "defect",
+        "rca",
+        "recommendation"
+      ],
+      "num_agents": 5,
+      "precision": 0.25,
+      "recall": 1.0,
+      "f1": 0.4,
+      "latency_ms": 392.86,
+      "evidence_support": 1.0,
+      "answer_correctness": 1.0,
+      "success": true,
+      "error_msg": null,
+      "findings_count": 1
+    },
+    {
+      "item_id": "TC-DEF-03",
+      "session_id": "session_steel_mill_02",
+      "query": "Check the metal surface for localized corrosion pitting or cavities.",
+      "pipeline_type": "ablation_no_fallback",
+      "required_agents": [
+        "defect"
+      ],
+      "selected_agents": [
+        "object",
+        "scene",
+        "evidence_validation"
+      ],
+      "executed_agents": [
+        "object",
+        "scene"
+      ],
+      "num_agents": 3,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "latency_ms": 283.37,
+      "evidence_support": 0.0,
+      "answer_correctness": 0.0,
+      "success": true,
+      "error_msg": null,
+      "findings_count": 1
+    },
+    {
+      "item_id": "TC-DEF-04",
+      "session_id": "session_steel_mill_02",
+      "query": "Detect foreign non-metallic inclusions embedded in the steel plate.",
+      "pipeline_type": "ablation_no_fallback",
+      "required_agents": [
+        "defect"
+      ],
+      "selected_agents": [
+        "object",
+        "defect",
+        "evidence_validation",
+        "rca",
+        "recommendation"
+      ],
+      "executed_agents": [
+        "object",
+        "defect",
+        "rca",
+        "recommendation"
+      ],
+      "num_agents": 5,
+      "precision": 0.25,
+      "recall": 1.0,
+      "f1": 0.4,
+      "latency_ms": 304.77,
+      "evidence_support": 1.0,
+      "answer_correctness": 1.0,
+      "success": true,
+      "error_msg": null,
+      "findings_count": 1
+    },
+    {
+      "item_id": "TC-DEF-05",
+      "session_id": "session_steel_mill_02",
+      "query": "Diagnose structural patch irregularities on the metal surface.",
+      "pipeline_type": "ablation_no_fallback",
+      "required_agents": [
+        "defect"
+      ],
+      "selected_agents": [
+        "object",
+        "evidence_validation",
+        "rag",
+        "rca",
+        "recommendation"
+      ],
+      "executed_agents": [
+        "object",
+        "rag",
+        "rca",
+        "recommendation"
+      ],
+      "num_agents": 5,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "latency_ms": 280.81,
+      "evidence_support": 0.0,
+      "answer_correctness": 0.0,
+      "success": true,
+      "error_msg": null,
+      "findings_count": 0
+    },
+    {
+      "item_id": "TC-OCR-01",
+      "session_id": "session_ocr_equipment_03",
+      "query": "Read the warning sign text and regulatory compliance notice.",
+      "pipeline_type": "ablation_no_fallback",
+      "required_agents": [
+        "ocr"
+      ],
+      "selected_agents": [
+        "ocr",
+        "evidence_validation"
+      ],
+      "executed_agents": [
+        "ocr"
+      ],
+      "num_agents": 2,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "latency_ms": 2784.91,
+      "evidence_support": 1.0,
+      "answer_correctness": 1.0,
+      "success": true,
+      "error_msg": null,
+      "findings_count": 7
+    },
+    {
+      "item_id": "TC-OCR-02",
+      "session_id": "session_ocr_equipment_03",
+      "query": "Extract the machine serial number and rated voltage from the plate.",
+      "pipeline_type": "ablation_no_fallback",
+      "required_agents": [
+        "ocr"
+      ],
+      "selected_agents": [
+        "ocr",
+        "evidence_validation"
+      ],
+      "executed_agents": [
+        "ocr"
+      ],
+      "num_agents": 2,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "latency_ms": 2434.03,
+      "evidence_support": 1.0,
+      "answer_correctness": 1.0,
+      "success": true,
+      "error_msg": null,
+      "findings_count": 7
+    },
+    {
+      "item_id": "TC-OCR-03",
+      "session_id": "session_ocr_equipment_03",
+      "query": "What industrial station number is printed at the bottom of the sign?",
+      "pipeline_type": "ablation_no_fallback",
+      "required_agents": [
+        "ocr"
+      ],
+      "selected_agents": [
+        "ocr",
+        "evidence_validation"
+      ],
+      "executed_agents": [
+        "ocr"
+      ],
+      "num_agents": 2,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "latency_ms": 2726.65,
+      "evidence_support": 1.0,
+      "answer_correctness": 1.0,
+      "success": true,
+      "error_msg": null,
+      "findings_count": 7
+    },
+    {
+      "item_id": "TC-OCR-04",
+      "session_id": "session_ocr_equipment_03",
+      "query": "Read the certified engineering safety standard on this machine.",
+      "pipeline_type": "ablation_no_fallback",
+      "required_agents": [
+        "ocr"
+      ],
+      "selected_agents": [
+        "ocr",
+        "evidence_validation"
+      ],
+      "executed_agents": [
+        "ocr"
+      ],
+      "num_agents": 2,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "latency_ms": 2142.82,
+      "evidence_support": 1.0,
+      "answer_correctness": 1.0,
+      "success": true,
+      "error_msg": null,
+      "findings_count": 7
+    },
+    {
+      "item_id": "TC-SCN-01",
+      "session_id": "session_factory_overview_04",
+      "query": "Describe the factory floor context and list visible machinery.",
+      "pipeline_type": "ablation_no_fallback",
+      "required_agents": [
+        "scene",
+        "object"
+      ],
+      "selected_agents": [
+        "ocr",
+        "evidence_validation"
+      ],
+      "executed_agents": [
+        "ocr"
+      ],
+      "num_agents": 2,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "latency_ms": 5635.8,
+      "evidence_support": 0.0,
+      "answer_correctness": 0.0,
+      "success": true,
+      "error_msg": null,
+      "findings_count": 0
+    },
+    {
+      "item_id": "TC-SCN-02",
+      "session_id": "session_factory_overview_04",
+      "query": "Identify the primary manufacturing machine and its physical enclosure.",
+      "pipeline_type": "ablation_no_fallback",
+      "required_agents": [
+        "object"
+      ],
+      "selected_agents": [
+        "object",
+        "scene",
+        "evidence_validation"
+      ],
+      "executed_agents": [
+        "object",
+        "scene"
+      ],
+      "num_agents": 3,
+      "precision": 0.5,
+      "recall": 1.0,
+      "f1": 0.6667,
+      "latency_ms": 402.0,
+      "evidence_support": 1.0,
+      "answer_correctness": 1.0,
+      "success": true,
+      "error_msg": null,
+      "findings_count": 1
+    },
+    {
+      "item_id": "TC-SCN-03",
+      "session_id": "session_factory_overview_04",
+      "query": "Count all visible operators and workstations in this view.",
+      "pipeline_type": "ablation_no_fallback",
+      "required_agents": [
+        "object"
+      ],
+      "selected_agents": [
+        "object",
+        "evidence_validation"
+      ],
+      "executed_agents": [
+        "object"
+      ],
+      "num_agents": 2,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "latency_ms": 1844.91,
+      "evidence_support": 1.0,
+      "answer_correctness": 1.0,
+      "success": true,
+      "error_msg": null,
+      "findings_count": 18
+    },
+    {
+      "item_id": "TC-SCN-04",
+      "session_id": "session_factory_overview_04",
+      "query": "Provide an environmental hazard overview of this industrial facility.",
+      "pipeline_type": "ablation_no_fallback",
+      "required_agents": [
+        "scene"
+      ],
+      "selected_agents": [
+        "scene",
+        "evidence_validation"
+      ],
+      "executed_agents": [
+        "scene"
+      ],
+      "num_agents": 2,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "latency_ms": 1815.06,
+      "evidence_support": 1.0,
+      "answer_correctness": 1.0,
+      "success": true,
+      "error_msg": null,
+      "findings_count": 1
+    },
+    {
+      "item_id": "TC-HYB-01",
+      "session_id": "session_hybrid_inspection_05",
+      "query": "Detect surface scratches and read the caution label on the machine.",
+      "pipeline_type": "ablation_no_fallback",
+      "required_agents": [
+        "defect",
+        "ocr"
+      ],
+      "selected_agents": [
+        "ocr",
+        "evidence_validation"
+      ],
+      "executed_agents": [
+        "ocr"
+      ],
+      "num_agents": 2,
+      "precision": 1.0,
+      "recall": 0.5,
+      "f1": 0.6667,
+      "latency_ms": 1837.53,
+      "evidence_support": 0.5,
+      "answer_correctness": 0.0,
+      "success": true,
+      "error_msg": null,
+      "findings_count": 3
+    },
+    {
+      "item_id": "TC-HYB-02",
+      "session_id": "session_hybrid_inspection_05",
+      "query": "Verify PPE compliance and cite the relevant OSHA head protection standard.",
+      "pipeline_type": "ablation_no_fallback",
+      "required_agents": [
+        "ppe",
+        "rag"
+      ],
+      "selected_agents": [
+        "object",
+        "ppe",
+        "evidence_validation",
+        "recommendation"
+      ],
+      "executed_agents": [
+        "object",
+        "ppe",
+        "recommendation"
+      ],
+      "num_agents": 4,
+      "precision": 0.3333,
+      "recall": 0.5,
+      "f1": 0.4,
+      "latency_ms": 1858.33,
+      "evidence_support": 0.5,
+      "answer_correctness": 0.0,
+      "success": true,
+      "error_msg": null,
+      "findings_count": 33
+    },
+    {
+      "item_id": "TC-HYB-03",
+      "session_id": "session_hybrid_inspection_05",
+      "query": "Classify the surface steel defect and retrieve ASTM A568 tolerance limits.",
+      "pipeline_type": "ablation_no_fallback",
+      "required_agents": [
+        "defect",
+        "rag"
+      ],
+      "selected_agents": [
+        "object",
+        "defect",
+        "evidence_validation",
+        "rca",
+        "recommendation"
+      ],
+      "executed_agents": [
+        "object",
+        "defect",
+        "rca",
+        "recommendation"
+      ],
+      "num_agents": 5,
+      "precision": 0.25,
+      "recall": 0.5,
+      "f1": 0.3333,
+      "latency_ms": 292.14,
+      "evidence_support": 0.5,
+      "answer_correctness": 0.0,
+      "success": true,
+      "error_msg": null,
+      "findings_count": 1
+    },
+    {
+      "item_id": "TC-HYB-04",
+      "session_id": "session_hybrid_inspection_05",
+      "query": "Examine the lathe workstation, extract caution text, and inspect for scratches.",
+      "pipeline_type": "ablation_no_fallback",
+      "required_agents": [
+        "defect",
+        "ocr",
+        "scene"
+      ],
+      "selected_agents": [
+        "ocr",
+        "evidence_validation"
+      ],
+      "executed_agents": [
+        "ocr"
+      ],
+      "num_agents": 2,
+      "precision": 1.0,
+      "recall": 0.3333,
+      "f1": 0.5,
+      "latency_ms": 2046.94,
+      "evidence_support": 0.3333,
+      "answer_correctness": 0.0,
+      "success": true,
+      "error_msg": null,
+      "findings_count": 3
+    },
+    {
+      "item_id": "TC-AMB-01",
+      "session_id": "session_ambiguous_edge_06",
+      "query": "What is visible here?",
+      "pipeline_type": "ablation_no_fallback",
+      "required_agents": [
+        "object",
+        "scene"
+      ],
+      "selected_agents": [],
+      "executed_agents": [
+        "object",
+        "scene"
+      ],
+      "num_agents": 0,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "latency_ms": 1906.08,
+      "evidence_support": 1.0,
+      "answer_correctness": 1.0,
+      "success": true,
+      "error_msg": null,
+      "findings_count": 19
+    },
+    {
+      "item_id": "TC-AMB-02",
+      "session_id": "session_ambiguous_edge_06",
+      "query": "Perform general visual inspection.",
+      "pipeline_type": "ablation_no_fallback",
+      "required_agents": [
+        "object",
+        "scene"
+      ],
+      "selected_agents": [],
+      "executed_agents": [
+        "object",
+        "scene"
+      ],
+      "num_agents": 0,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "latency_ms": 748.82,
+      "evidence_support": 1.0,
+      "answer_correctness": 1.0,
+      "success": true,
+      "error_msg": null,
+      "findings_count": 2
+    }
+  ]
+}

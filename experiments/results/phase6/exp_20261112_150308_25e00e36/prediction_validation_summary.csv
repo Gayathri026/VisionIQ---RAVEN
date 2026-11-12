@@ -1,0 +1,11 @@
+metric,value
+total_steps_executed,66
+valid_steps_analyzed,66
+failed_steps_count,0
+mean_absolute_error,0.1161
+mean_signed_error,0.0371
+rmse,0.1351
+pearson_r,-0.4889
+pearson_p_value,3.1111e-05
+spearman_rho,-0.501
+spearman_p_value,1.8305e-05

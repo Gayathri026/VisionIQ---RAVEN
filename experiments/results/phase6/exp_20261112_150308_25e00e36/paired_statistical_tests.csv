@@ -1,0 +1,4 @@
+comparison,latency_reduction_ms,latency_ci_95_low,latency_ci_95_high,latency_cohen_d,latency_wilcoxon_p,invocations_reduction,invocations_ci_95_low,invocations_ci_95_high,invocations_cohen_d,invocations_wilcoxon_p,f1_delta
+sequential_vs_fixed_pipeline,90.82,-64.58,246.22,0.2091,0.0007979,0.2,0.05,0.35,0.4916,0.03125,0.0556
+sequential_vs_phase2_weighted,55.54,14.41,96.68,0.4832,0.016431,-0.4,-0.58,-0.22,-0.8028,0.00048828,-0.0178
+sequential_vs_relevance_dependency,57.21,28.06,86.35,0.7025,0.0011315,0.2,0.05,0.35,0.4916,0.03125,0.0

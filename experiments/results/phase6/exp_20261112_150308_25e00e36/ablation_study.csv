@@ -1,0 +1,6 @@
+variant,mean_invocations,median_latency_ms,p95_latency_ms,mean_deficit,mean_f1
+ablation_no_evidence_gain,2.4,121.61,196.78,0.4457,0.3832
+ablation_no_cost_norm,2.2,90.63,252.05,0.367,0.3832
+ablation_no_stopping_condition,2.2,82.41,115.1,0.367,0.3832
+ablation_open_loop,1.8,77.5,132.22,0.4027,0.3843
+ablation_full_method,2.2,77.34,173.0,0.367,0.3832
